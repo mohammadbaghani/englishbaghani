@@ -1,0 +1,745 @@
+.form-container:hover {
+  transition: 1s;
+
+
+
+}
+
+::-webkit-input-placeholder {
+  color: #06011f;
+  font-size: 18px;
+  padding-right: -15px;
+  font-family: 'vazir';
+  opacity: .5 !important;
+}
+
+
+
+
+.success-message {
+  font-family: 'y';
+  background-color: #3f89f8;
+  padding: 15px;
+  color: white;
+}
+
+.form-field {
+  margin: -2px 0 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  border-bottom: #1e42b3 4px solid;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'y';
+  background-color: transparent!important;
+  padding-right: 0px;
+  width: 212px;
+  height: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.form-enter {
+  top: 5px;
+  position: relative;
+  font-size: 20px;
+  width: 306px;
+  height: 38px !important;
+
+  text-align: center;
+  padding-top: 3px;
+
+  font-weight: 200;
+  background-color: #294dc4 !important;
+  color: #ffffff !important;
+
+  border-radius: 1px;
+  border: none !important;
+  font-family: 'y' !important;
+
+}
+
+
+
+span {
+
+  font-size: 25px;
+  color: rgb(255, 244, 246);
+  margin-bottom: 15px;
+}
+
+input {
+  background: #f2f2f2;
+}
+
+.error {
+  border-style: solid;
+  border: 2px solid #ffa4a4;
+}
+
+button {
+
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+
+
+@media screen and (max-width: 1200px) {.table td, .table th {
+  padding: 1.75rem;
+  /* vertical-align: top; */
+  border-top: 1px solid #dee2e6;
+  height: 69px;
+}
+  .havi {
+   
+      top:-53px;
+      position: relative;
+      height: 1200px;
+      margin-right: auto;
+      margin-left: auto;
+      width: 900px;
+  
+  
+
+  }
+
+  .register-form:hover .form-enter {
+    color: #06011f;
+
+
+  }
+
+
+  .moshakhasat {
+    color: #000000 !important;
+    top: 203px;
+    font-size: 18px !important;
+    font-family: 'yekan' !important;
+    right: -22px;
+    position: relative;
+    z-index: 1;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0px;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+
+  .form-enter {
+    border: 2px solid rgb(17, 32, 240) !important;
+    order: 2px solid rgb(17, 32, 240) !important;
+    background-color: rgb(247, 248, 253)!important;
+    color: rgb(17, 32, 240)!important;
+    font-size: 20px;
+    font-weight: 200!important;
+    border-radius: 0px;
+    height: 41px !important;
+    padding-top: 5px!important;
+    position: relative;
+    text-align: center;
+    top: 5px;
+    min-width: 203px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'vazir'!important;
+    right: -5px;
+    border-radius: 8px;
+
+
+
+  }
+.form-enter:hover{
+
+  font-size: 20px;
+  font-weight: 200!important;
+
+
+  transition:all .6s ease !important;color: rgb(255, 255, 255)!important;
+    background-color: rgb(17, 32, 240) !important;
+
+}
+  .register-form {
+    display: flex;
+    height: 421px;
+    width: 401px;
+    flex-direction: column;
+    border-radius: 87px;
+    justify-content: space-evenly;
+    right: 0px;
+    padding: 10px;
+    background-color: #ffffff;
+    top: 278px;
+    font-size: 17px !important;
+    font-family: 'vazir';
+    position: relative;
+ 
+    z-index: 1;
+    border: 5px solid rgb(18, 9, 148);
+    padding-right: 20px !important;
+    left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    transform: scale(1.1);
+    overflow: hidden;
+
+
+
+  }
+
+
+
+  .form-container {
+    margin: auto;
+    position: relative;
+    padding-left: 20px;
+    width: 100%!important;
+    border-radius: 7px;
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    top: -35px;
+    z-index: 0;
+    
+    margin-right: auto!important;
+    margin-left: auto!important;
+    background-color: white;
+  }
+
+  .register-form:hover {
+    border:  1px solid rgb(197, 221, 248);
+    box-shadow: 0px 8px 18px 8px rgb(196, 212, 247);
+
+  }
+
+  ::-webkit-input-placeholder {
+    color: #070707 !important;
+
+  }
+
+}
+
+@media screen and (max-width: 956px) {.form-enter {
+  border: 2px solid rgb(7 22 231) !important;
+  background-color: rgb(247, 248, 253)!important;
+  color: rgb(7 22 231) !important;
+  font-size: 20px;
+  font-weight: 200;
+  /* border-radius: 0px; */
+  height: 41px !important;
+  padding-top: 5px!important;
+  position: relative;
+  text-align: center;
+  top: 5px;
+  min-width: 197px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'y' !important;
+  right: 0px;
+}
+  .havi {
+    top: -27px;
+    position: relative;
+    height: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+}
+
+  .moshakhasat {
+    color: #000000 !important;
+    top: 183px;
+    font-size: 20px !important;
+    font-family: 'vazir';
+    /* right: 91px; */
+    position: relative;
+    z-index: 1;
+    margin-right: auto!important;
+    margin-left: auto!important;
+
+  }
+  .btn-danger {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    /* border: black solid 1px; */
+    border-radius: 4px;
+    font-weight: bold;
+    width: 59px;
+    height: 33px;
+    font-size: 16px;
+    border: rgb(97 97 97) 1px solid;
+    position: relative;
+    padding-top: 5px;
+    font-weight: 400;
+    margin-right: 85px!important;
+    margin-top: 2px;
+}
+  .form-field {
+
+    margin: -2px 0 10px 0;
+    padding: 15px;
+    font-size: 16px;
+        border-bottom: #7c7274 1px solid;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'y';
+    padding-right: 0px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+
+
+  }
+
+
+}
+
+@media screen and (max-width: 756px) {
+
+
+
+
+
+
+
+
+  .havi {
+    top: 211px;
+    position: relative !important;
+    height: 1195px;
+    margin-right: auto !important;
+  
+    height: 1199px;
+ 
+    width: 90% !important;
+}
+  .moshakhasat {
+    color: #000000 !important;
+    top: 50px;
+    font-size: 20px !important;
+    font-family: 'vazir';
+  
+    position: relative;
+    z-index: 0;
+  }
+
+
+  .form-field {
+ 
+      border-radius: 0px;
+      height: 42px !important;
+      font-size: 21px;
+      font-weight: 200;
+      padding-top: 5px!important;
+      position: relative;
+      text-align: center;
+      top: 5px;
+      width: 79% !important;
+      font-family: 'y' !important;
+      margin-right: auto;
+      margin-left: auto;
+      right: -6px;
+  
+  }
+
+  .form-enter {
+    border-radius: 0px;
+    height: 42px !important;
+    font-size: 21px;
+    font-weight: 200;
+    padding-top: 5px!important;
+    position: relative;
+    text-align: center;
+    top: 5px;
+    width: 97% !important;
+    font-family: 'y' !important;
+}
+
+  .register-form {
+    display: flex;
+    height: 380px;
+    width: 350px;
+    flex-direction: column;
+    border-radius: 6px;
+    justify-content: space-evenly;
+    right: 829px;
+    padding: 10px;
+    background-color: #ffffff;
+    top: 268px;
+    font-size: 17px !important;
+    font-family: 'vazir';
+    position: relative;
+    
+    z-index: 1;
+  }
+
+
+
+  .form-container {
+    height: 350px;
+    padding-left: 20px;
+    width: 100% !important;
+    border-radius: 7px;
+    font-size: 40px;
+    font-weight: 900;
+    left: 812px;
+    position: relative !important;
+    top: -312px;
+    z-index: 0;
+    margin-top: 136px;
+    margin-right: auto !important;
+    margin-left: auto !important;
+
+  }
+
+  .register-form:hover {
+    transition: all .4s;
+    display: flex;
+    height: 380px;
+    width: 350px;
+    flex-direction: column;
+    border-radius: 6px;
+    justify-content: space-evenly;
+    right: 829px;
+    padding: 10px;
+    box-shadow: 0px 8px 18px 8px rgb(196, 212, 247);
+    top: 268px;
+    font-size: 17px !important;
+    font-family: 'vazir';
+    position: relative;
+
+    z-index: 1;
+  }
+
+
+}
+
+@media screen and (max-width: 576px) {
+
+  .form-field {
+    margin: -2px 0 10px 0;
+    padding: 15px;
+    font-size: 17px !important;
+        border-bottom: #7c7274 1px solid;
+    color: #000000;
+ 
+    font-weight: 600;
+    font-family: 'y';
+    padding-right: 0px;
+    width: 80%;
+    height: 40px;
+  }
+
+
+  .form-enter {
+ 
+
+    font-size: 20px;
+    font-weight: 400 !important;
+    padding-top: 6px !important;
+    /* position: relative; */
+    text-align: center;
+    top: 5px;
+    min-width: 100%;
+    display: block;
+    padding-bottom: 29px;
+    padding-top: 4px !important;
+    font-family: 'y' !important;
+    height: 40px !important;
+
+  }
+
+  .havi {
+    top: -105px !important;
+    position: relative !important;
+    width: 85% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    right: 0px;
+  }
+
+  .moshakhasat {
+    font-size: 14px !important;
+    font-family: 'vazir';
+    right: 38px;
+    position: absolute;
+    top: -188px;
+    /* display: block; */
+    width: 100% !important;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 20px;
+  }
+
+
+
+
+  .register-form {
+    display: flex;
+    width: 81%;
+    flex-direction: column;
+    border-radius: 3px;
+    justify-content: space-evenly;
+    right: 0px;
+    padding: 7px;
+    top: 0px;
+    font-size: 17px !important;
+    font-family: 'vazir';
+    position: absolute;
+    height: 400px;
+    padding-right: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0px;
+    padding-top: -13px;
+
+
+  }
+
+  .register-form:hover {
+    display: flex;
+    width: 81%;
+    flex-direction: column;
+    border-radius: 3px;
+    justify-content: space-evenly;
+    right: 0px;
+    padding: 8px;
+    top: 0px;
+    font-size: 17px !important;
+    font-family: 'vazir';
+    position: absolute;
+    height: 400px;
+    padding-right: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0px;
+  }
+
+  .form-container {
+    height: 355px;
+    margin: auto;
+    position: relative;
+    padding-left: 20px;
+    width: 90% !important;
+    border-radius: 7px;
+    font-size: 40px;
+    font-weight: 900;
+    left: 5px;
+    position: relative;
+    top: -141px;
+    z-index: 0;
+
+    margin-top: 189px;
+  }
+
+
+  .col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    /* max-width: 52%; */
+    position: absolute;
+    display: flex;
+
+    margin-right: auto;
+    margin-left: auto;
+    right: 0px;
+    width: 64%;
+    flex-wrap: wrap;
+
+  }
+}
+
+@media screen and (max-width:338px) {
+  .moshakhasat {
+    font-size: 12px !important;
+    font-family: 'vazir';
+    right: 2px;
+    position: absolute;
+    top: -184px;
+    width: 94% !important;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 20px;
+  }
+
+  .form-enter {
+    color: #fff !important;
+    font-size: 25px !important;
+    font-weight: 200 !important;
+
+    padding-top: 3px;
+    position: absolute !important;
+    text-align: center !important;
+    top: 341px;
+    display: block !important;
+    max-width: 28% !important;
+    border-radius: 5px;
+    height: 33px !important;
+
+    border: none !important;
+    font-family: 'y' !important;
+    right: -46px;
+    transform: scale(.4);
+    left: 12px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+
+}
+
+
+
+@media screen and (min-width: 1200px) {.table td, .table th {
+  padding: 1.75rem;
+  /* vertical-align: top; */
+  border-top: 1px solid #dee2e6;
+  height: 69px;
+}
+
+  .havi {
+    top:-589px;
+    position: relative;
+    height: 1357px;
+    background-color: #0f3bc0;
+    padding-top: 758px;
+    border-radius: 46px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0px;
+    left: 0px;
+    margin-top: 351px;
+    margin-bottom: 10px;
+    border: 5px solid #7ac4f6;
+}
+
+  .moshakhasat {
+   
+      color: #ffffff !important;
+      top: -609px;
+      font-size: 33px !important;
+      font-family: 'dana';
+      right: 0px;
+      position: relative;
+      z-index: 0;
+      margin-right: auto;
+      margin-left: auto;
+      left: 0px;
+  }
+  .register-form:hover {
+    transition: all .4s;
+    display: flex;
+
+
+
+  
+
+
+
+ 
+ 
+
+    box-shadow: 0px 6px 15px 8px rgb(87, 103, 138);
+    z-index: 1;
+  }
+
+  .register-form:hover .form-enter {
+    color: #06011f;
+    border-radius: 155px!important;
+
+  }
+
+  .register-form {
+    display: flex;
+    height: 421px;
+    width: 401px;
+    flex-direction: column;
+    border-radius: 87px;
+    justify-content: space-evenly;
+    right: 0px;
+    padding: 10px;
+    background-color: #ffffff;
+    top: 355px;
+    font-size: 17px !important;
+    font-family: 'vazir';
+    position: relative;
+ 
+    z-index: 1;
+    border: 5px solid rgb(18, 9, 148);
+    padding-right: 20px !important;
+    left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    transform: scale(1.5);
+    overflow: hidden;
+}
+  ::-webkit-input-placeholder {
+    color: #070707 !important;
+
+  }
+
+  .form-container {
+    height: 1115px;
+    /* margin: auto; */
+    position: relative;
+    padding-left: 20px;
+    width: 100%;
+    border-radius: 40px;
+    font-size: 40px;
+    font-weight: 900;
+    left: 0px;
+    position: relative;
+    top: -797px;
+    z-index: 0;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0px;
+    /* background-color: brown; */
+}
+
+  .formparent {
+    width: 403px;
+  }
+
+  .form-enter {
+    border: 2px solid rgb(17, 32, 240) !important;
+    background-color: rgb(247, 248, 253)!important;
+    color: rgb(17, 32, 240)!important;
+    font-size: 21px;
+    font-weight: 400 !important;
+    padding-top: 5px !important;
+    /* position: relative; */
+    text-align: center;
+    top: -6px;
+    min-width: 211px;
+    display: block;
+    padding-bottom: 31px;
+    border-radius: 45px;
+    font-family: 'dana' !important;
+    /* border-radius: 5px; */
+    height: 43px !important;
+    right: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0px;
+
+  }
+  .form-enter:hover{transition:all .6s ease !important;color: rgb(255, 255, 255)!important;
+    background-color: rgb(17, 32, 240) !important;
+  }
+}

@@ -1,0 +1,1982 @@
+* {
+    text-decoration: none;
+
+}
+
+
+
+.zz {
+    margin-top: -307px;
+
+    color: black !important;
+    padding-bottom: -20px;
+    top: 143px;
+    position: relative;
+    margin-bottom: -47px;
+
+    display: block !important;
+    /* height: 130px !important; */
+    padding-top: 45px;
+
+}
+
+.animation-items {
+    margin-top: 20px;
+}
+
+.shop-items {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+
+
+
+
+
+
+
+
+
+
+    
+
+.shop-item-image {
+    height: 300px;
+    width: 219px;
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    right: 0px;
+    left: 0px;
+    top: 35px;
+    z-index: 1;
+    transform: scale(1.1);
+}
+
+    .bottom-text {
+        padding-top: 28px;
+        margin-top: 125px;
+        margin-bottom: 144px;
+        text-align: center;
+        justify-content: center !important;
+        font-family: dana !important;
+        align-items: center !important;
+        height: 57px !important;
+        direction: ltr;
+        z-index: 2;
+        font-size: 21px !important;
+        left: 0px !important;
+        top: -121px !important;
+        right: 0px !important;
+        position: absolute;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        width: 200px !important;
+        display: flex !important;
+        color: #ece9e9 !important;
+        background-color: rgb(122, 35, 0);
+        border-radius: 55px !important;
+        border: 1px solid rgb(31, 26, 26);
+    }
+
+
+
+
+
+
+
+    .shop-item-image {
+        height: 370px;
+        width: 87%;
+        position: absolute;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        right: 0px;
+        left: 0px;
+        top: 9px;
+        z-index: 1;
+
+
+
+
+    }
+
+
+
+
+    .formcheck-shop {
+        font-family: 'y';
+        font-size: 13px;
+        position: relative !important;
+        width: 155px;
+        top: 19px;
+        text-align: center;
+        margin-bottom: 24px;
+        /* direction: ltr !important; */
+        /* background-color: rgb(255 255 255); */
+        transform: scale(1.3);
+        border-radius: 30px;
+        left: 30px !important;
+        direction: ltr;
+        display: block !important;
+        opacity: 1 !important;
+        margin-left: 59px !important;
+        left: -52px !important;
+        margin-top: -23;
+        color: black;
+        padding-right: -19px;
+        transform: scale(1.2);
+
+
+    }
+
+    label {
+        width: 70px;
+        padding-right: 10px;
+        margin-bottom: 130px;
+        font-family: 'y';
+        font-size: 10px;
+        font-weight: 400 !important;
+        color: #070707;
+
+    }
+
+
+
+
+
+
+
+
+
+
+    .bottom-text {
+        padding-top: 28px;
+        margin-top: 125px;
+        margin-bottom: 144px;
+        text-align: center;
+        justify-content: center !important;
+        font-family: dana !important;
+        align-items: center !important;
+        height: 57px !important;
+        direction: ltr;
+        z-index: 2;
+        font-size: 21px !important;
+        left: 0px !important;
+        top: -121px !important;
+        right: -1px !important;
+        position: absolute;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        width: 200px !important;
+        display: flex !important;
+        color: #ece9e9 !important;
+        background-color: rgb(122, 35, 0);
+        border-radius: 55px !important;
+        border: 1px solid rgb(31, 26, 26);
+
+
+
+    }
+
+    .zz {
+        color: #000 !important;
+        display: block !important;
+        margin-bottom: -440px;
+        margin-top: 436px;
+        padding-bottom: -20px;
+        padding-top: 45px;
+        position: relative;
+        top: 105px;
+
+    }
+
+    .one {
+        position: absolute !important;
+        display: flex !important;
+        top: 55px !important;
+        right: 45px;
+    }
+
+    .tow {
+        position: absolute !important;
+        top: 55px !important;
+        display: flex !important;
+        right: 120px;
+    }
+
+    .three {
+        position: absolute !important;
+        display: flex !important;
+        right: 80px;
+        top: 5px !important;
+    }
+
+    .all-actressimage {
+        position: absolute !important;
+        display: flex !important;
+        width: 30% !important;
+        height: 28% !important;
+        top: 10px;
+        margin-right: -33px;
+        justify-content: center !important;
+        border: 2px solid rgb(255, 255, 255);
+        align-items: center !important;
+        border-radius: 55px !important;
+    }
+
+    .actressimage {
+        position: absolute !important;
+        display: flex !important;
+        width: 352px !important;
+        height: 352px !important;
+        top: 49px;
+        justify-content: center !important;
+        border: 7px solid rgb(255 255 255);
+        align-items: center !important;
+        border-radius: 18px !important;
+        transform: scale(.79);
+
+
+
+    }
+
+    .valed-parent-filters {
+        height: 163px;
+        width: 100%;
+        align-items: center;
+        background-color: #b23528;
+        padding-left: 40px;
+        padding-right: 40px;
+        z-index: 0;
+        display: flex;
+        margin-left: auto;
+        right: 0px;
+        left: 0px;
+        margin-bottom: -199px;
+        position: relative;
+        padding-top: 62px;
+        top: 360px !important;
+        margin-top: 85px;
+        justify-content: center;
+    }
+
+    .btn-actress {
+        right: 8px;
+        left: 0px;
+        top: 223px;
+        height: 92px;
+        color: rgb(255 255 255);
+        background-color: rgb(238, 91, 5);
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-image: initial;
+        /* border-bottom: 3px solid #dee2e6; */
+        font-family: dana;
+        z-index: 1;
+        position: absolute !important;
+        margin-right: auto !important;
+        display: flex !important;
+        margin-left: auto !important;
+        width: 200px !important;
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+        align-self: flex-sr !important;
+        font-size: 29px !important;
+        font-weight: 400 !important;
+        transform: skew(-2deg, -2deg)scale(.6);
+        border: 3px solid #ffffff;
+        /* transform: scale(.8); */
+        border-radius: 5px;
+
+
+    }
+
+    .parent-actressimage {
+
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+        /* width: 70%; */
+        height: 230px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        /* position: fixed; */
+        left: 0px;
+        top: -199px;
+        right: 0px;
+        /* border-radius: 15px !important; */
+        /* margin-top: -158px; */
+        /* margin: -15px; */
+        position: relative;
+        margin-bottom: -55px;
+        padding-right: 62px;
+
+
+
+
+    }
+
+    .valed-parent-actressimage {
+        display: block;
+        position: relative !important;
+        top: 538px !important;
+        margin-right: auto;
+        margin-left: auto;
+        width: 80% !important;
+
+        margin-left: -333px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+    .shop-count {
+
+        color: rgb(255, 255, 255);
+        width: 80px;
+        height: 80px !important;
+
+        position: fixed;
+
+        z-index: 30;
+        left: 0px !important;
+        top: 200px !important;
+
+        padding: 3px 4px !important;
+        border-radius: 8px !important;
+
+
+        justify-content: center !important;
+
+        align-items: center !important;
+        flex-direction: row !important;
+        display: flex !important;
+
+    }
+
+    .shop-count-count {
+        bottom: -15px !important;
+        width: 30% !important;
+        background-color: rgb(55, 72, 223);
+        color: #ffffff !important;
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+        z-index: 1 !important;
+        height: 30% !important;
+        border-radius: 35px !important;
+        font-size: 17px !important;
+        position: absolute !important;
+        display: flex !important;
+        font-family: 'y' !important;
+        padding-top: 5px !important;
+        right: 50px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .shop-count-image {
+        top: 2px !important;
+        width: 60% !important;
+
+        z-index: 1 !important;
+        height: 60% !important;
+        background-color: rgb(199, 152, 0);
+        padding: 3px 4px !important;
+        position: absolute !important;
+        display: flex !important;
+
+
+
+
+    }
+
+
+    .shop-body {
+        position: relative;
+        top: 20px;
+
+    }
+
+    .shop-items {
+        margin-top: 355px;
+        position: relative;
+        top: 470px;
+        -webkit-transform: scale(.78);
+        transform: scale(.78);
+        z-index: 0;
+    }
+
+    .animation-items {
+        z-index: 0;
+        top: -300px !important;
+        margin-top: -230px !important;
+        margin-left: auto !important;
+        padding-top: 700px;
+        margin-right: auto !important;
+        right: -90px !important;
+        width: 103% !important;
+        display: flex !important;
+        position: relative !important;
+
+    }
+
+    .parent-filters {
+        margin-bottom: 1rem !important;
+        display: flex;
+    }
+
+    .band-name-large-animation {
+        align-items: center;
+        text-shadow: none;
+        color: #ffffff !important;
+        font-family: 'dana' !important;
+        font-size: 43px;
+        margin-top: -181px;
+        height: 129px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 47px;
+        position: absolute;
+        text-align: center;
+        top: 138px;
+        font-weight: 400 !important;
+        z-index: 1;
+        background-color: #160701;
+        border-radius: 5px;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        display: block !important;
+        right: 0px !important;
+        left: 0px !important;
+        font-weight: 900;
+        box-shadow: 0px 1px 12px rgb(128, 128, 128) !important;
+
+
+
+
+    }
+
+    .animation-items {
+        z-index: 0 !important;
+        position: relative !important;
+        margin-top: 5px !important;
+        top: -311px !important;
+        right: 0px !important;
+        width: 100% !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        left: 0px !important;
+
+    }
+
+    .hshop {
+        width: 480px;
+        position: relative;
+        right: 280px;
+        border-radius: 50px;
+        top: -325px;
+        background-color: rgb(0, 0, 0);
+        height: 5px;
+        border-radius: 80px;
+        z-index: 1;
+        visibility: hidden;
+    }
+
+    .shop-body {
+        position: relative;
+        top: -489px !important;
+        margin-bottom: 20px;
+        background-color: #0f0509;
+
+
+
+
+    }
+
+    .valed-parent-actressimage {
+        position: relative !important;
+        top: 772px !important;
+        margin-right: auto;
+        height: 1300px;
+        width: 983px !important;
+        margin-left: auto;
+        z-index: 0;
+        display: flex;
+        right: 0px;
+        left: 0px;
+    }
+
+
+
+
+    .btn-parent {
+        position: relative;
+
+        width: 72% !important;
+        height: 100px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        top: -1822px !important;
+        margin-top: 671px !important;
+        right: -66px;
+        left: 0px;
+        background-color: transparent;
+    }
+
+    .shopha:hover {
+
+        transform: scale(1.05) !important;
+    }
+
+    .btn-actress {
+        right: 0px;
+        left: 0px;
+        top: 240px;
+        height: 51px;
+        color: rgb(255 255 255);
+        background-color: rgb(238, 91, 5);
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-image: initial;
+        /* border-bottom: 3px solid #dee2e6; */
+        font-family: dana;
+        z-index: 1;
+        position: absolute !important;
+        margin-right: auto !important;
+        display: flex !important;
+        margin-left: auto !important;
+        width: 147px !important;
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+        align-self: flex-sr !important;
+        font-size: 20px !important;
+        font-weight: 400 !important;
+        transform: skew(-2deg, -2deg);
+        border: 3px solid #ffffff;
+    
+    
+    
+
+    }
+
+
+  
+
+}
+
+
+@media only screen and (max-width: 992px) {
+    .formcheck-shop {
+        font-family: 'y';
+        font-size: 12px;
+        position: relative !important;
+        width: 95px;
+        top: 41px;
+        text-align: center !important;
+        margin-bottom: 24px;
+        /* direction: ltr !important; */
+        background-color: rgb(238 255 232);
+        transform: scale(1.3);
+        border-radius: 30px;
+        display: flex !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding-bottom: 3px !important;
+        margin-top: -23;
+        padding-right: 0px !important;
+        left: -8px !important;
+    
+    }
+
+
+    label {
+        width: 70px;
+        padding-right: -22px;
+        margin-bottom: 130px;
+        font-family: 'y';
+        font-size: 9px;
+        font-weight: 400 !important;
+        color: #070707;
+        padding-top: 4px;
+    }
+
+    .bottom-text {
+          padding-top: 28px;
+    margin-top: 125px;
+    margin-bottom: 144px;
+    text-align: center;
+    justify-content: center !important;
+    font-family: dana !important;
+    align-items: center !important;
+    height: 57px !important;
+    direction: ltr;
+    z-index: 2;
+    font-size: 21px !important;
+    left: 0px !important;
+    top: -121px !important;
+    right: -1px !important;
+    position: absolute;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 200px !important;
+    display: flex !important;
+    color: #ece9e9 !important;
+    background-color: rgb(122, 35, 0);
+    border-radius: 55px !important;
+    border: 1px solid rgb(31, 26, 26);
+
+
+
+    }
+
+
+
+
+
+    .btn-actress {
+
+
+        position: absolute !important;
+
+
+    }
+
+    .valed-parent-actressimage {
+        position: relative !important;
+        top: 4px !important;
+        margin-right: auto;
+        margin-left: auto;
+        width: 693px !important;
+        display: flex;
+        right: 0px;
+        left: 0px;
+        height: 754px;
+        margin-bottom: 630px;
+    }
+
+    .actressimage {
+        position: absolute !important;
+        display: flex !important;
+        width: 252px !important;
+        height: 252px !important;
+        top: 49px;
+        justify-content: center !important;
+        border: 7px solid rgb(255 255 255);
+        align-items: center !important;
+        border-radius: 18px !important;
+        transform: scale(.79);
+    }
+
+    .parent-actressimage {
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+        width: 79px !important;
+        height: 160px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        /* position: fixed; */
+        left: 0px;
+        top: 250px;
+        border-radius: 15px !important;
+        /* margin-top: -158px; */
+        /* margin: -15px; */
+        position: relative;
+        right: -32px;
+    }
+
+    .shop-body {
+        position: relative;
+        top: -432px !important;
+        margin-bottom: 20px;
+
+    }
+
+    .shop-items {
+        margin-left: auto;
+        margin-right: auto;
+        /* right: 28px; */
+        top: -800px !important;
+        z-index: 0 !important;
+        /* margin-top: 22px; */
+        width: 99%;
+        right: 0px;
+        /* padding-right: 0px; */
+
+        position: absolute;
+
+    }
+
+    .hshop {
+
+        width: 220px;
+        position: relative;
+        right: 80px;
+        border-radius: 50px;
+        top: -333px;
+        background-color: rgb(0, 0, 0);
+        height: 5px;
+        border-radius: 80px;
+        z-index: 0 !important;
+        visibility: hidden;
+    }
+
+    .animation-items {
+        margin-left: auto;
+        margin-right: auto;
+        right: 28px;
+        top: 652px !important;
+        padding-top: 630px !important;
+        width: 101%;
+        right: -58px;
+        display: flex;
+
+
+    }
+
+    .band-name-large-animation {
+
+        align-items: center;
+        text-shadow: none;
+        color: #ffffff !important;
+        font-family: 'y' !important;
+        font-size: 35px;
+        margin-top: 285px;
+        height: 174px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-top: 65px;
+        position: relative;
+        text-align: center;
+        top: -183px;
+        font-weight: 500;
+        right: -101px;
+        font-weight: 400 !important;
+        z-index: 0;
+
+        margin-right: auto;
+        margin-left: auto;
+
+
+    }
+
+    .zz {
+        color: #000 !important;
+        display: block !important;
+        margin-bottom: -440px;
+        margin-top: 415px;
+        padding-bottom: -20px;
+        padding-top: 45px;
+        position: relative;
+        top: -82px;
+       
+
+    }
+
+
+    .shopha {
+        width: 303px;
+        margin-left: 30px;
+        /* margin-right: 13px; */
+        display: block;
+        left: 34px;
+        /* position: absolute; */
+        margin-top: 509px;
+        margin-bottom: -493px;
+        /* position: absolute; */
+        right: -65px;
+        /* z-index: 1 !important; */
+        top: -2371px;
+        transform: scale(.9);
+
+    }
+
+    .btn-parent {
+        position: relative;
+        width: 72% !important;
+        height: 100px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        top: -2579px !important;
+        margin-top: 671px !important;
+        right: -84px;
+        left: 0px;
+    }
+
+    .shopha:hover {
+
+        transform: scale(.95) !important;
+    }
+
+    .valed-parent-filters {
+        height: 153px;
+        width: 100%;
+        align-items: center;
+        background-color: #b23528;
+        padding-left: 40px;
+        padding-right: 40px;
+        z-index: 0;
+        display: flex;
+        margin-left: auto;
+        right: 0px;
+        left: 0px;
+        margin-bottom: -199px;
+        position: relative;
+        padding-top: -26px;
+        top: 60px !important;
+        margin-top: 85px;
+        justify-content: center;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+.actressimage{
+
+
+    position: absolute !important;
+    display: flex !important;
+    width: 181px !important;
+    height: 178px !important;
+    top: 61px;
+    justify-content: center !important;
+    border: 5px solid rgb(255 255 255);
+    align-items: center !important;
+    border-radius: 18px !important;
+    transform: scale(.79);
+    right: -14px;
+    margin-right: 6px;
+    margin-left: 11px;
+
+    
+}
+    .valed-parent-filters {
+        height: 131px;
+        width: 100%;
+        align-items: center;
+        background-color: #b23528;
+        padding-left: 40px;
+        padding-right: 40px;
+        z-index: 0;
+        display: flex;
+        margin-left: auto;
+        right: 0px;
+        left: 0px;
+        margin-bottom: -199px;
+        position: relative;
+        padding-top: -26px;
+        top: 438px !important;
+        margin-top: 85px;
+        justify-content: center;
+    
+    }
+
+
+
+
+
+
+
+
+    .formcheck-shop {
+        font-family: 'y';
+        font-size: 12px;
+        position: relative !important;
+        width: 100px;
+        top: 172px;
+        text-align: center !important;
+        margin-bottom: 24px;
+        /* direction: ltr !important; */
+        background-color: rgb(238 255 232);
+        transform: scale(1.3);
+        border-radius: 30px;
+        display: flex !important;
+        margin-left: -669px !important;
+        margin-right: auto !important;
+        padding-bottom: 3px !important;
+        margin-top: -23;
+        padding-right: 0px !important;
+        left: 9px;
+    }
+
+    .btn-parent {
+        position: relative;
+        width: 72% !important;
+        height: 100px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+
+        top: -2904px !important;
+        margin-top: 8071px !important;
+        right: 0px;
+        left: 0px;
+    }
+
+    .bottom-text {
+        margin-top: 550px;
+        margin-bottom: 131px;
+        margin-right: -262px !important;
+        /* margin-left: -90px !important; */
+        width: 136px !important;
+        height: 40px;
+        text-align: center;
+        justify-content: center;
+        display: flex !important;
+        z-index: 1;
+        font-family: 'y';
+        border-radius: 20px !important;
+        color: black !important;
+        padding-top: 10px !important;
+        transform: scaleY(2.3);
+        font-size: 16px !important;
+    }
+
+
+    .form-check-input {
+        position: absolute;
+        margin-top: 0.3rem;
+        margin-left: -1.25rem;
+    }
+
+
+
+    .valed-parent-actressimage {
+        display: block;
+        position: relative !important;
+        top: 440px !important;
+        /* margin-left: auto !important; */
+        left: 0px !important;
+        width: 575px !important;
+        display: flex!important;
+        margin-left: auto!important;
+        right: 0px!important;
+        margin-right: auto;
+    
+    
+
+    }
+
+    .parent-actressimage {
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+        width: 160% !important;
+        height: 160px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        /* position: fixed; */
+        left: 0px;
+        top: 189px;
+        border-radius: 15px !important;
+        /* margin-top: -158px; */
+        /* margin: -15px; */
+        position: relative;
+        right: 0px;
+    
+    }
+
+
+
+
+
+
+
+
+    .shop-items {
+        margin-left: auto;
+        margin-right: auto;
+        /* right: 28px; */
+        top: -900px !important;
+        z-index: 0 !important;
+        /* margin-top: 22px; */
+        width: 99%;
+        right: 0px;
+        /* padding-right: 0px; */
+
+        position: absolute;
+
+    }
+
+    .shop-body {
+        position: relative !important;
+
+        height: 126%;
+        margin-top: 67px;
+        padding-top: 500px;
+        overflow-y: hidden;
+        top: -349px !important;
+        margin-bottom: 20px;
+    }
+
+    .animation-items {
+        z-index: 0 !important;
+        margin-top: 94px !important;
+        height: 1964px !important;
+        top: -607px !important;
+        margin-right: 71px !important;
+        margin-left: -10px !important;
+        right: -270px !important;
+        width: 149% !important;
+        margin-bottom: 330px !important;
+        padding-right: 2px !important;
+        padding-left: -176px !important;
+
+
+    }
+
+    .band-name-large-animation {
+        align-items: center;
+        text-shadow: none;
+        color: #ffffff !important;
+        align-items: center;
+        text-shadow: none;
+        color: #ffffff !important;
+        font-family: 'y' !important;
+        font-size: 25px;
+        margin-top: 337px;
+        height: 80px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 28px;
+        position: relative;
+        text-align: center;
+        top: 132px !important;
+        font-weight: 400 !important;
+        z-index: 0;
+        border-radius: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        right: 0px !important;
+    
+
+    }
+
+
+    .zz {
+        color: #000 !important;
+        display: block !important;
+        margin-bottom: -1074px;
+        margin-top: 118px;
+        padding-bottom: -368px;
+        padding-top: 45px;
+        position: relative;
+        top: -678px;
+        background-color: #8fb19b !important;
+
+    }
+
+    .shopha {
+        margin-left: 142px !important;
+        width: 300px !important;
+        margin-bottom: -524px !important;
+        top: -828px !important;
+        position: relative !important;
+        right: 42px !important;
+        z-index: 1 !important;
+        margin-right: 6px !important;
+        transform: scale(.9);
+    }
+
+    .shop-count {
+        color: rgb(255, 255, 255);
+        width: 80px;
+        height: 80px !important;
+        position: fixed;
+        z-index: 30;
+        left: 24px !important;
+        top: 200px !important;
+        padding: 3px 4px !important;
+        border-radius: 8px !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: row !important;
+        display: flex !important;
+    }
+
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .btn-actress{
+
+    
+        right: 0px;
+        left: 0px;
+        top: 169px;
+        height: -moz-fit-content;
+        height: fit-content;
+        color: rgb(255 255 255);
+        background-color: rgb(238, 91, 5);
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-image: initial;
+        /* border-bottom: 3px solid #dee2e6; */
+        font-family: dana;
+        z-index: 1;
+        position: absolute !important;
+        margin-right: auto !important;
+        display: flex !important;
+        margin-left: auto !important;
+        width: 63% !important;
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+        align-self: flex-sr !important;
+        font-size: 13px !important;
+        font-weight: 400 !important;
+        transform: skew(-2deg, -2deg);
+        border: 1px solid #ffffff;
+    }
+
+
+
+    .actressimage {
+        position: absolute !important;
+        display: flex !important;
+        width: 100%!important;
+        height: 152px !important;
+        top: 49px;
+        justify-content: center !important;
+        border: 2px solid rgb(22, 142, 197);
+        align-items: center !important;
+        border-radius: 18px !important;
+        transform: scale(.79);
+        right: 0px !important;
+        left: 0px !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+    .formcheck-shop {
+        font-family: 'y';
+        font-size: 12px;
+        position: relative !important;
+        width: 103px;
+        top: 401px;
+        text-align: center !important;
+        margin-bottom: 19px;
+        /* direction: ltr !important; */
+        background-color: rgb(238 255 232);
+        transform: scale(1.3);
+        border-radius: 30px;
+        display: flex !important;
+        margin-left: 55px !important;
+        margin-right: auto !important;
+        padding-bottom: 3px !important;
+        margin-top: -23;
+        padding-right: 12px !important;
+        left: 0px !important;
+        padding-left: 21px;
+    }
+
+    .shop-count {
+        color: rgb(255, 255, 255);
+        width: 80px;
+        height: 80px !important;
+        position: fixed;
+        z-index: 30;
+        left: 14px !important;
+        top: 200px !important;
+        padding: 3px 4px !important;
+        border-radius: 8px !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: row !important;
+        display: flex !important;
+    }
+
+
+
+
+
+    .bottom-text {
+        margin-top: 471px;
+        margin-bottom: 130px;
+        margin-right: -251px !important;
+        margin-left: 39px !important;
+        width: 131px !important;
+        height: 29px;
+        text-align: center;
+        justify-content: center;
+        display: flex !important;
+        z-index: 1;
+        font-family: 'y';
+        border-radius: 20px !important;
+        color: #0a0a0a !important;
+        padding-top: 17px !important;
+        transform: scaleY(2);
+        font-size: 15px !important;
+    }
+
+    .valed-parent-actressimage {
+        position: relative !important;
+        margin-left: auto;
+        width: 100% !important;
+        right: 0px !important;
+        left: 0px !important;
+        margin-bottom: 58px !important;
+        direction: rtl;
+        top: 387px !important;
+        display: flex;
+        background-color: brown;
+
+    }
+
+    .parent-actressimage {
+
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+        width: 80% !important;
+        height: 160px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        /* border: rgb(255, 255, 255) solid 2px; */
+        /* position: fixed; */
+        left: 0px;
+        top: 406px;
+        border-radius: 15px !important;
+        margin-top: 15px;
+        /* margin: -15px; */
+        position: relative;
+        right: 0px;
+    }
+
+
+
+
+    .shop-items {
+
+        margin-top: 1933px !important;
+        width: inherit;
+        position: relative;
+        height: 165rem;
+        z-index: 0 !important;
+        text-align: center;
+        top: -729px !important;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        right: 0px;
+
+    }
+
+    .shop-body {
+        position: relative;
+        top: -106px;
+        /* margin-bottom: 20px; */
+        height: 6545px;
+        margin-top: 67px;
+        padding-top: 500px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        position: relative;
+        top: -249px !important;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .band-name-large-animation {
+
+        align-items: center;
+        text-shadow: none;
+        color: #ffffff !important;
+        align-items: center;
+        text-shadow: none;
+        color: #ffffff !important;
+        font-family: 'y' !important;
+        font-size: 18px;
+        /* margin-top: 356px; */
+        height: 39px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        position: relative;
+        text-align: center;
+        top: -595px;
+        /* font-weight: 500; */
+        /* right: 0px; */
+        font-weight: 400 !important;
+        z-index: 0;
+        background-color: #1a2525 !important;
+        border-radius: 35px;
+        margin-right: auto;
+        margin-left: auto;
+        left: 0px;
+        position: absolute;
+        width: 89%;
+
+    }
+
+    .animation-items {
+        margin-top: 34px !important;
+        width: inherit;
+        position: relative;
+        z-index: 0 !important;
+        text-align: center;
+        top: 150px !important;
+        display: block;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        right: 0px !important;
+
+    }
+
+    .zz {
+        height: 150px;
+        margin-top: -132px;
+        width: 520px;
+        left: -55px;
+        position: relative;
+    }
+
+    .shopha {
+        width: 300px !important;
+        display: block;
+        margin-bottom: -67px !important;
+        top: -491px !important;
+        right: 101px !important;
+        z-index: 0 !important;
+        margin-right: 15px !important;
+        margin-left: 20px !important;
+        right: 30px !important;
+        position: relative;
+        height: 486px;
+        transform: scale(.8);
+    }
+
+    .shopha:hover {
+
+        transform: scale(.85) !important;
+    }
+}
+
+@media screen and (max-width:338px) {
+    .shop-items {
+
+        margin-top: 1921px !important;
+        width: inherit;
+        position: relative;
+        /* height: 167rem; */
+        z-index: 0 !important;
+        text-align: center;
+        top: -478px !important;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        right: 0px;
+
+    }
+
+    .shop-body {
+        position: relative;
+        top: -106px;
+        /* margin-bottom: 20px; */
+        height: 5545px;
+        margin-top: 67px;
+        padding-top: 500px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        position: relative;
+        top: -249px !important;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .band-name-large-animation {
+
+        align-items: center;
+        text-shadow: none;
+        color: #ffffff !important;
+        align-items: center;
+        text-shadow: none;
+        color: #ffffff !important;
+        font-family: 'y' !important;
+        font-size: 18px;
+        /* margin-top: 356px; */
+        height: 39px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        position: relative;
+        text-align: center;
+        top: -549px;
+        /* font-weight: 500; */
+        /* right: 0px; */
+        font-weight: 400 !important;
+        z-index: 0;
+        background-color: #1a2525 !important;
+        border-radius: 35px;
+        margin-right: auto;
+        margin-left: auto;
+        left: 0px;
+        position: absolute;
+        width: 200px;
+
+
+    }
+
+    .animation-items {
+
+        margin-top: 1921px !important;
+        width: inherit;
+        position: relative;
+        /* height: 167rem; */
+        z-index: 0 !important;
+        text-align: center;
+        top: -478px !important;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        right: 0px;
+
+    }
+
+    .zz {
+        height: 150px;
+        margin-top: -300px;
+        width: 520px;
+        left: -55px;
+        position: relative;
+    }
+
+    .shopha {
+
+        width: 85%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: block;
+        margin-bottom: -29px !important;
+        top: -2452px !important;
+        position: relative;
+        transform: scale(.7) !important;
+        z-index: -1 !important;
+
+        right: 77px !important;
+        position: relative;
+        left: 29px;
+    }
+
+    .valed-parent-actressimage {
+        position: relative !important;
+        margin-left: 197px !important;
+        width: 41% !important;
+        right: 223px !important;
+        left: 429px !important;
+        margin-bottom: 57px !important;
+        direction: rtl;
+        top: 519px !important;
+        transform: scale(.7);
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+
+    .btn-parent {
+        position: relative;
+        width: 883px !important;
+        height: 100px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+
+        top: -1865px !important;
+        margin-top: 306px !important;
+        right: -65px;
+        left: 0px;
+    }
+
+
+
+
+    .band-name-large-animation {
+        align-items: center;
+        text-shadow: none;
+        color: #ffffff !important;
+        font-family: 'dana';
+        font-size: 42px;
+        margin-top: -119px;
+        height: 156px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 49px;
+        position: absolute;
+        text-align: center;
+        top: 0px;
+        font-weight: 400 !important;
+        z-index: 1;
+        background-color: #160701;
+        /* border-radius: 35px; */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        width: 102% !important;
+        display: block !important;
+        right: -6px !important;
+        left: 15px;
+        font-weight: 400 !important;
+        box-shadow: 0px 1px 12px rgb(128, 128, 128) !important;
+
+    }
+
+
+
+
+    .bottom-text {
+
+        padding-top: 28px;
+        margin-top: 125px;
+        margin-bottom: 144px;
+        text-align: center;
+        justify-content: center !important;
+        font-family: dana !important;
+        align-items: center !important;
+        height: 57px !important;
+        direction: ltr;
+        z-index: 2;
+        font-size: 21px !important;
+        left: 0px !important;
+        top: -115px !important;
+        right: -1px !important;
+        position: absolute;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        width: 200px !important;
+        display: flex !important;
+        color: #ece9e9 !important;
+        background-color: rgb(122, 35, 0);
+        border-radius: 55px !important;
+        border: 1px solid rgb(31, 26, 26);
+
+
+
+    }
+
+    .actressimage {
+
+        position: absolute !important;
+        display: flex !important;
+        width: 385px !important;
+        height: 357px !important;
+        top: 49px;
+        justify-content: center !important;
+        border: 7px solid rgb(255 255 255);
+        align-items: center !important;
+        border-radius: 18px !important;
+        transform: scale(.79);
+
+    }
+
+    .one {
+        position: absolute !important;
+        display: flex !important;
+        top: 135px !important;
+        right: -10px;
+    }
+
+    .tow {
+        position: absolute !important;
+        top: 105px !important;
+        display: flex !important;
+        right: 80px;
+    }
+
+    .three {
+        position: absolute !important;
+        display: flex !important;
+        right: 35px !important;
+        top: 25px !important;
+    }
+
+    .all-actressimage {
+        position: absolute !important;
+        display: flex !important;
+        width: 25% !important;
+        height: 25% !important;
+        top: 94px !important;
+        transform: scale(1.3);
+        margin-right: 65px;
+        justify-content: center !important;
+        border: 2px solid rgb(32 95 8);
+        align-items: center !important;
+        border-radius: 75px !important;
+    }
+
+    .btn-actress {
+        right: 17px;
+        left: 0px;
+        top: 325px;
+        height: 67px;
+        color: rgb(255 255 255);
+        background-color: rgb(238, 91, 5);
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-image: initial;
+        /* border-bottom: 3px solid #dee2e6; */
+        font-family: dana;
+        z-index: 1;
+        position: absolute !important;
+        margin-right: auto !important;
+        display: flex !important;
+        margin-left: auto !important;
+        width: 199px !important;
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+        align-self: flex-sr !important;
+        font-size: 24px !important;
+        font-weight: 400 !important;
+        transform: skew(-2deg, -2deg);
+        border: 3px solid #ffffff;
+        border-radius: 5px;
+    }
+
+    .btn-actress:active {
+        font-size: 33px !important;
+        transform: scale(1.08) skew(-2deg, -2deg) !important;
+
+
+    }
+
+    .btn-actress:hover {
+        transition: all .2s;
+
+        transform: scale(1.08) skew(-2deg, -2deg);
+        background-color: #502004 !important;
+
+    }
+
+    .parent-actressimage {
+        margin-left: auto;
+        margin-right: 226px;
+        z-index: 1;
+        width: 89%;
+        height: 230px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        /* position: fixed; */
+        left: 0px;
+        top: -226px;
+        right: -219px;
+        /* border-radius: 15px !important; */
+        /* margin-top: -158px; */
+        /* margin: -15px; */
+        position: relative;
+        margin-bottom: -55px;
+        padding-right: 44px;
+    }
+
+
+    .parent-filters {
+        margin-bottom: 1rem !important;
+        display: flex;
+    }
+
+
+    .valed-parent-filters {
+        height: 154px;
+        width: 100%;
+        align-items: center;
+        background-color: #b23528;
+        padding-left: 40px;
+        padding-right: 40px;
+        z-index: 0;
+        display: flex;
+        margin-left: auto;
+        right: 0px;
+        left: 0px;
+        margin-bottom: -199px;
+        position: relative;
+        padding-top: 36px;
+        top: 7px !important;
+        margin-top: 85px;
+        justify-content: center;
+
+
+
+    }
+
+    .valed-parent-actressimage {
+        top: 211px !important;
+        margin-right: auto;
+        height: 551px;
+        width: 100%;
+        align-items: center;
+        z-index: 0;
+        background-color: #060611;
+        padding-left: 40px;
+        padding-right: 40px;
+        z-index: 0;
+        display: flex;
+        margin-left: auto;
+        right: 45px;
+        left: 0px;
+        margin-bottom: 1057px;
+        position: relative;
+    }
+
+    .btn-filter {
+
+
+
+        display: block;
+        margin: 1000px auto 50px auto;
+        color: #ffffff !important;
+        width: 94px !important;
+        height: 38px !important;
+        font-size: 12px !important;
+        border-radius: 5px !important;
+        font-weight: 900;
+        letter-spacing: 0px !important;
+        background-color: #1f47ca !important;
+        top: 36px !important;
+        right: 20px !important;
+        border: rgb(68, 68, 68) solid 1px;
+        position: relative !important;
+        margin-top: 1149px;
+        margin-bottom: -1162px;
+        margin-right: 10px !important;
+        margin-left: auto !important;
+
+
+
+    }
+
+    .shop-count {
+
+        color: rgb(255, 255, 255);
+        width: 80px;
+        height: 80px !important;
+
+        position: fixed;
+
+        z-index: 30;
+        left: 0px !important;
+        top: 200px !important;
+
+        padding: 3px 4px !important;
+        border-radius: 8px !important;
+
+
+        justify-content: center !important;
+
+        align-items: center !important;
+        flex-direction: row !important;
+        display: flex !important;
+
+    }
+
+    .shop-count-count {
+        bottom: 5px !important;
+        width: 30% !important;
+        background-color: #490d06;
+        color: #ffffff !important;
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+        z-index: 1 !important;
+        height: 30% !important;
+        border-radius: 35px !important;
+        font-size: 17px !important;
+        position: absolute !important;
+        display: flex !important;
+        font-family: 'y' !important;
+        padding-top: 5px !important;
+        right: 50px !important;
+        padding-bottom: 0px !important;
+        opacity: 1 !important;
+    }
+
+    .shop-count-image {
+        top: 9px !important;
+        width: 58% !important;
+        transform: rotate(-360deg) !important;
+        z-index: 1 !important;
+        height: 58% !important;
+        background-color: #b23528;
+        padding: 4px 10px 5px 5px !important;
+        position: absolute !important;
+        display: flex !important;
+        border-radius: 6px;
+
+
+    }
+
+
+
+
+
+
+
+
+    .animation-items {
+        z-index: 0;
+
+    }
+
+    .shop-body {
+        position: relative;
+        top: 0px !important;
+        margin-bottom: 20px;
+        background-color: #0f0509;
+        width: 102%;
+        margin-right: auto;
+        margin-left: auto;
+        height: 7655px;
+        right: -4px;
+        left: 0px;
+
+    }
+
+    .btn-bottom {
+        position: relative;
+        right: 650px !important;
+        top: -495px !important;
+
+    }
+
+
+    .hshop {
+        width: 480px;
+        position: relative;
+        right: 280px;
+        border-radius: 50px;
+        top: -325px;
+        background-color: rgb(0, 0, 0);
+        height: 5px;
+        border-radius: 80px;
+        z-index: 1 !important;
+    }
+
+
+
+    .hshop {
+        width: 480px;
+        position: relative;
+        right: 210px;
+        border-radius: 50px;
+        top: -325px;
+        background-color: rgb(0, 0, 0);
+        height: 5px;
+        border-radius: 80px;
+        z-index: 1;
+        visibility: hidden;
+    }
+
+    .animation-items {
+        top: -701px;
+        position: relative;
+        margin-top: 10px;
+        width: 95%;
+        right: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        left: 0px;
+        padding-top: 580px;
+        border-radius: 55px;
+        margin-bottom: 184px;
+
+    }
+
+
+    .formcheck-shop {
+        font-family: 'y';
+        font-size: 13px;
+        position: relative !important;
+        left: 49px !important;
+        width: 244px;
+        top: 55px;
+        text-align: center;
+        margin-bottom: 51px;
+        direction: ltr !important;
+        transform: scale(1.3);
+        /* border-radius: 30px; */
+        height: 49px;
+        padding-top: 0px !important;
+        z-index: 1;
+        right: 33px;
+
+    }
+
+    label {
+
+        width: 101px;
+        padding-right: 0px;
+        margin-bottom: 130px;
+        font-family: 'dana';
+        font-size: 18px;
+        font-weight: 400 !important;
+        color: #ece9e9;
+    }
+
+    .shop-items {
+        top: -1236px;
+        position: absolute;
+        margin-top: 715px;
+        width: 94%;
+        right: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        left: 0px;
+    }
+
+
+
+    .shop-item-image {
+        height: 540px;
+        width: 87%;
+        position: absolute;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        right: 0px;
+        left: 0px;
+        top: 9px;
+        z-index: 1;
+
+
+
+    }
+
+
+}

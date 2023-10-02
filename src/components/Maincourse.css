@@ -1,0 +1,802 @@
+@media only screen and (max-width: 1200px) {
+    .mainy {
+        right: 0px !important;
+        left: 0px;
+        background-color: #a3c6c7 !important;
+        width: 100% !important;
+        height: 100vh;
+        margin-right: auto !important;
+        margin-left: auto !important;
+
+        top: -20px !important;
+        position: relative;
+
+        display: flex !important;
+
+
+    }
+
+    .hover-left-child-price,
+    .hover-left-child-sath,
+    .hover-left-child-online {
+        top: -160px !important;
+        color: #1d1a1a !important;
+        font-family: 'dana' !important;
+        position: relative;
+    }
+
+    .hover-left-child-price-adad {
+
+        color: #1d1a1a !important;
+        font-family: 'y' !important;
+    }
+
+    .p-course::after {
+        top: 11px;
+        content: '';
+
+        z-index: 0 !important;
+        font-size: 16px !important;
+
+        background-color: transparent;
+        color: #ffffff !important;
+
+        border-bottom: solid 3px #111113;
+
+
+        background-color: transparent;
+        height: 64px;
+
+
+
+        position: absolute !important;
+        width: 85% !important;
+        right: 9px !important;
+
+    }
+
+
+
+    .p-course {
+        top: 55px;
+        z-index: 0 !important;
+        position: absolute !important;
+        width: 40% !important;
+        right: 234px;
+        font-size: 25px !important;
+        margin-top: 0px !important;
+        color: #1b1919 !important;
+        margin-right: -131px;
+
+
+    }
+
+
+    .parent-image-course {
+        width: 100% !important;
+        z-index: -1 !important;
+        position: absolute;
+        height: 100% !important;
+    }
+
+
+    .image-course {
+        right: 0px;
+        width: 100% !important;
+        top: 0px !important;
+        left: 0px !important;
+        position: absolute;
+        display: flex;
+        margin-left: auto !important;
+
+        margin-right: auto !important;
+        border-radius: 1px !important;
+        border: 1px solid #d6d6d6;
+    }
+
+    .h-course {
+        margin-right: auto !important;
+        margin-left: auto !important;
+        right: 106px !important;
+        position: absolute;
+        width: 36% !important;
+        background-color: transparent;
+        display: flex;
+        font-family: 'y';
+        color: #000 !important;
+
+        line-height: 31px;
+        font-weight: 500;
+        height: -moz-fit-content;
+        height: fit-content;
+        top: 142px;
+        z-index: 0 !important;
+
+
+    }
+
+
+
+
+
+    .hover-left {
+        background-color: #ffffff !important;
+        width: 100% !important;
+        position: absolute;
+        z-index: 1 !important;
+        height: 39% !important;
+        padding-top: 14px !important;
+        font-size: 26px;
+        background-color: transparent;
+        top: 450px !important;
+        align-items: center;
+        display: flex !important;
+        justify-content: center;
+        color: #000000 !important;
+        font-family: 'vazir';
+        flex-direction: column;
+    }
+
+    .progress {
+        display: flex;
+        height: 3rem;
+        overflow: hidden;
+        line-height: 0;
+        font-size: .703125rem;
+        background-color: #b1b851;
+        border-radius: 0.35rem;
+        top: 34px;
+        position: relative;
+        width: 95%;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        right: 0px !important;
+        left: 0px !important;
+    }
+
+    .hover-parent {
+
+
+        width: 45% !important;
+        position: absolute;
+        margin-right: auto !important;
+        margin-left: auto !important;
+
+        left: 0px !important;
+        height: 450px !important;
+
+
+
+        top: 80px;
+
+
+
+        background-color: white;
+
+
+        opacity: 1;
+
+        z-index: 1 !important;
+
+        color: white;
+        font-family: 'vazir';
+
+
+
+    }
+
+
+}
+
+@media only screen and (max-width:992px) {
+    .mainy {
+        right: 0px !important;
+        left: 0px;
+        background-color: #a3c6c7 !important;
+        width: 100% !important;
+        height: 100vh;
+        margin-right: auto !important;
+        margin-left: auto !important;
+
+        top: -20px;
+        position: relative;
+
+        display: flex !important;
+
+
+    }
+
+    .p-course {
+        top: 55px;
+        z-index: 0 !important;
+        position: absolute !important;
+        width: 40% !important;
+        right: 234px;
+        font-size: 25px !important;
+        margin-top: 0px !important;
+        color: #1b1919 !important;
+        margin-right: -131px;
+    }
+
+    .hover-left-child-price,
+    .hover-left-child-sath,
+    .hover-left-child-online {
+        top: -160px !important;
+        color: #1d1a1a !important;
+        font-family: 'dana' !important;
+        position: relative;
+    }
+
+    .hover-left-child-price-adad {
+
+        color: #1d1a1a !important;
+        font-family: 'y' !important;
+    }
+
+    .p-course::after {
+        top: 11px;
+        content: '';
+
+        z-index: 0 !important;
+        font-size: 16px !important;
+
+        background-color: transparent;
+        color: #ffffff !important;
+
+        border-bottom: solid 3px #111113;
+
+
+        background-color: transparent;
+        height: 64px;
+
+
+
+        position: absolute !important;
+        width: 85% !important;
+        right: 9px !important;
+
+    }
+
+
+
+    .p-course {
+        top: 55px;
+        z-index: 0 !important;
+        position: absolute !important;
+        width: 40% !important;
+        right: 234px;
+        font-size: 25px !important;
+        margin-top: 0px !important;
+        color: #1b1919 !important;
+        margin-right: -131px;
+
+
+    }
+
+
+    .parent-image-course {
+        width: 100% !important;
+        z-index: -1 !important;
+        position: absolute;
+        height: 100% !important;
+    }
+
+
+    .image-course {
+        right: 0px;
+        width: 100% !important;
+        top: 0px !important;
+        left: 0px !important;
+        position: absolute;
+        display: flex;
+        margin-left: auto !important;
+
+        margin-right: auto !important;
+        border-radius: 1px !important;
+        border: 1px solid #d6d6d6;
+    }
+
+    .h-course {
+        margin-right: auto !important;
+        margin-left: auto !important;
+        right: 106px !important;
+        position: absolute;
+        width: 36% !important;
+        background-color: transparent;
+        display: flex;
+        font-family: 'y';
+        color: #000 !important;
+
+        line-height: 31px;
+        font-weight: 500;
+        height: -moz-fit-content;
+        height: fit-content;
+        top: 142px;
+        z-index: 0 !important;
+
+
+    }
+
+
+
+
+
+    .hover-left {
+        background-color: #ffffff !important;
+        width: 100% !important;
+        position: absolute;
+        z-index: 1 !important;
+        height: 39% !important;
+        padding-top: 14px !important;
+        font-size: 26px;
+        background-color: transparent;
+        top: 450px !important;
+        align-items: center;
+        display: flex !important;
+        justify-content: center;
+        color: #000000 !important;
+        font-family: 'vazir';
+        flex-direction: column;
+    }
+
+    .progress {
+        display: flex;
+        height: 3rem;
+        overflow: hidden;
+        line-height: 0;
+        font-size: .703125rem;
+        background-color: #b1b851;
+        border-radius: 0.35rem;
+        top: 34px;
+        position: relative;
+        width: 95%;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        right: 0px !important;
+        left: 0px !important;
+    }
+
+    .hover-parent {
+
+
+        width: 45% !important;
+        position: absolute;
+        margin-right: auto !important;
+        margin-left: auto !important;
+
+        left: 0px !important;
+        height: 450px !important;
+
+
+
+        top: 80px;
+
+
+
+        background-color: white;
+
+
+        opacity: 1;
+
+        z-index: 1 !important;
+
+        color: white;
+        font-family: 'vazir';
+
+
+
+    }
+
+
+}
+
+@media only screen and (max-width:788px) {
+
+
+
+
+
+    .p-course {
+        top: 55px;
+        z-index: 0 !important;
+        position: absolute !important;
+        width: 35% !important;
+        right: 234px;
+        font-size: 17px !important;
+        margin-top: 0px !important;
+        color: #1b1919 !important;
+        margin-right: -179px;
+    }
+
+
+
+
+
+
+
+
+
+    .hover-left-child-price,
+    .hover-left-child-sath,
+    .hover-left-child-online {
+        top: -177px !important;
+        color: #1d1a1a !important;
+        font-family: 'dana' !important;
+        position: relative;
+        font-size: 17px;
+        line-height: 33px;
+        margin-top: -1px;
+    }
+
+    .hover-left-child-price-adad {
+
+        color: #1d1a1a !important;
+        font-family: 'y' !important;
+    }
+
+
+
+
+
+
+    .parent-image-course {
+        width: 100% !important;
+        z-index: -1 !important;
+        position: absolute;
+        height: 100% !important;
+        right: 0px;
+        left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .image-course {
+        right: 0px;
+        width: 90% !important;
+        top: 0px !important;
+        left: 0px !important;
+        position: absolute;
+        display: flex;
+        margin-left: auto !important;
+
+        margin-right: auto !important;
+        border-radius: 1px !important;
+        border: 1px solid #d6d6d6;
+    }
+
+    .h-course {
+        margin-right: auto !important;
+        margin-left: auto !important;
+        right: 47px !important;
+        position: absolute;
+        width: 50% !important;
+        background-color: transparent;
+        display: flex;
+        font-family: 'y';
+        color: #000 !important;
+        line-height: 31px;
+        font-weight: 500;
+        height: -moz-fit-content;
+        height: fit-content;
+        top: 142px;
+        z-index: 0 !important;
+    }
+
+
+
+
+    .hover-left {
+        background-color: #ffffff !important;
+        width: 108% !important;
+        position: absolute;
+        z-index: 1 !important;
+        height: 39% !important;
+        padding-top: 14px !important;
+        font-size: 26px;
+        background-color: transparent;
+        top: 450px !important;
+        align-items: center;
+        display: flex !important;
+        justify-content: center;
+        color: #000000 !important;
+        font-family: 'vazir';
+        flex-direction: column;
+    }
+
+    .progress {
+        display: flex;
+        height: 3rem;
+        overflow: hidden;
+        line-height: 0;
+        font-size: .703125rem;
+        background-color: #b1b851;
+        border-radius: 0.35rem;
+        top: 34px;
+        position: relative;
+        width: 95%;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        right: 0px !important;
+        left: 0px !important;
+    }
+
+    .hover-parent {
+
+
+        width: 38% !important;
+        position: absolute;
+        margin-right: auto !important;
+        margin-left: auto !important;
+
+        left: 0px !important;
+        height: 450px !important;
+
+
+
+        top: 80px;
+
+
+
+        background-color: white;
+
+
+        opacity: 1;
+
+        z-index: 1 !important;
+
+        color: white;
+        font-family: 'vazir';
+
+
+
+    }
+
+
+}
+
+@media only screen and (max-width:556px) {
+
+    .p-course {
+        z-index: 0 !important;
+        position: absolute !important;
+        width: 46% !important;
+        right: 234px;
+        font-size: 11px !important;
+        margin-top: 0px !important;
+        color: #1b1919 !important;
+        margin-right: -179px;
+        padding-top: 21px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .mainy {
+
+
+        right: 0px !important;
+        left: 0px;
+
+        width: 100% !important;
+        height: 100vh;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        top: -242px;
+        position: relative;
+        display: flex !important;
+    }
+
+    .p-course::after {
+        top: 0px;
+        content: '';
+        z-index: 0 !important;
+        font-size: 16px !important;
+        background-color: transparent;
+        color: #d43636 !important;
+        border-bottom: solid 5px #07245a;
+        background-color: transparent;
+        height: 64px;
+        position: absolute !important;
+        width: 85% !important;
+        right: 9px !important;
+
+
+    }
+
+
+
+    .p-course {
+        top: 122px;
+        z-index: 0 !important;
+        position: absolute !important;
+        width: 41% !important;
+        right: 354px;
+        font-size: 23px !important;
+        margin-top: 0px !important;
+        color: #000000 !important;
+        padding-right: 12px;
+        font-family: 'vazir';
+        font-weight: 700 !important;
+    }
+
+
+    .parent-image-course {
+
+        width: 100% !important;
+        z-index: -1 !important;
+        position: absolute;
+        height: 120% !important;
+    }
+
+
+    .image-course {
+
+        right: -4px;
+        width: 102% !important;
+        top: -8px !important;
+        left: 0px !important;
+        position: absolute;
+        display: flex;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        border-top-left-radius: 33px !important;
+        border-top-right-radius: 33px !important;
+        height: 100% !important
+    }
+
+    .h-course {
+        margin-right: auto !important;
+        margin-left: auto !important;
+        right: 62px;
+        position: absolute;
+        width: 38% !important;
+        background-color: transparent;
+        display: flex;
+        font-family: 'vazir' !important;
+        color: #000000 !important;
+        font-size: 18px !important;
+        line-height: 35px;
+        font-weight: 400 !important;
+        height: -moz-fit-content;
+        height: fit-content;
+        top: 210px;
+        z-index: 0 !important;
+
+
+    }
+
+
+
+
+
+    .hover-right {
+        width: 30% !important;
+        position: absolute;
+        margin-right: auto !important;
+        margin-left: auto !important;
+
+        left: 200px;
+        height: 100% !important;
+
+
+
+        z-index: 1 !important;
+        border-radius: 1px;
+        opacity: .7 !important;
+
+        top: 181px !important;
+        font-size: 30px;
+
+
+
+
+        padding-top: 0px;
+        font-family: 'vazir';
+
+        height: 0px !important;
+
+
+    }
+
+    .hover-left {
+
+
+        width: 100% !important;
+        position: absolute !important;
+        z-index: 1 !important;
+        /* height: 100px; */
+        border-radius: 1px;
+        opacity: 1;
+        background-color: #100a22 !important;
+        top: 568px !important;
+        font-size: 28px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        color: #ffffff !important;
+        font-family: 'dana';
+        flex-direction: column;
+        font-family: 'dana';
+        padding-top: 80px;
+        height: 42% !important;
+        opacity: .96;
+
+    }
+
+    .hover-left-child-price,
+    .hover-left-child-sath,
+    .hover-left-child-online {
+        top: -154px !important;
+        color: #ffffff !important;
+        font-family: 'dana' !important;
+        position: relative;
+        font-size: 15px;
+        font-weight: 400 !important;
+    }
+
+    .hover-left-child-price-adad {
+
+        color: #ffffff !important;
+        font-family: 'y' !important;
+    }
+
+
+    .hover-parent {
+        width: 45% !important;
+        position: absolute;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        background-color: #ffffff !important;
+        left: 100px;
+        height: 506px !important;
+        border-radius: 20px;
+        overflow: hidden;
+        top: 81px;
+        border: 1px solid #c3c3c7 !important;
+        z-index: 0 !important;
+        color: rgb(255, 255, 255);
+        font-family: 'dana';
+        padding-top: -18px;
+    }
+
+
+
+
+
+    .mainy:hover .hover-left {
+        transition: all .7s ease-in;
+        top: 268px !important;
+    }
+
+
+    .progress {
+        display: -ms-flexbox;
+        display: flex;
+        height: 3rem;
+        overflow: hidden;
+        line-height: 0;
+        font-size: .703125rem;
+        background-color: #ddb917;
+        border-radius: 0.35rem;
+        top: 34px;
+        position: relative;
+        width: 95%;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        right: 0px !important;
+        left: 0px !important;
+
+    }
+
+    .progress-bar {
+        color: #000000;
+        padding-top: 8px;
+        font-family: 'y';
+        background-color: #ffffff !important;
+
+
+    }
+
+
+}

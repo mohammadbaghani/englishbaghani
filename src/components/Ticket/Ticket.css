@@ -1,0 +1,576 @@
+@media only screen and (max-width: 1200px) {
+
+
+  .box {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: -1px;
+    position: relative;
+
+  }
+
+  .countrySelect {
+  
+ 
+    width: 75%;
+  
+      height: 58px !important;
+    border-radius: 0px !important;
+    padding-right: 30px;
+    top: 112px !important;
+    margin-right: 490px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200 !important;
+    margin-top: 324px;
+    padding: -7px !important;
+    z-index: 1 !important;
+    position: relative !important;
+    padding-top: 0px;
+    padding-right: 69px;
+    padding-bottom: 2px;
+    border: rgb(228, 228, 228)solid 1px;
+    border-radius: 9px !important;
+    box-shadow: #b6c9ff 1px 1px 8px 1px!important;
+    background-color: #080e2c!important;
+    color: rgb(255 255 255)!important;
+
+
+
+
+
+}
+
+.ticket-image {
+  top: 517px;
+  display: flex!important;
+  transform: scaleX(1.1)scale(.2)!important;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  right: 114px;
+  left: 0px;
+  z-index: 1;
+  width: 150px;
+  height: 100px;
+}
+
+
+
+
+.ticket-image-tow {
+  top: 10px;
+  display: flex!important;
+  transform: scaleX(1.2)scale(.17)!important;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  right: 547px;
+  left: 0px;
+  z-index: 1;
+  width: 150px;
+  height: 100px;
+
+}
+.citySelect {
+  width: 75%;
+  height: 58px !important;
+  padding: -10px;
+  padding-right: 125px;
+  top: -65px !important;
+  margin-right: auto;
+  font-size: 19px;
+  font-weight: 200 !important;
+  /* margin-top: 164px; */
+  padding-top: 7px!important;
+  padding-bottom: 3px!important;
+  right: 30px;
+  margin-right: -44px;
+  padding-right: 86px;
+  border: rgb(255 255 255)solid 1px;
+  border-radius: 8px !important;
+  background-color: #080e2c!important;
+
+  box-shadow: #b6c9ff 1px 1px 8px 1px!important;
+  color: rgb(255 255 255)!important;
+  position: relative;
+
+
+
+}
+  .arrow-down {
+    top: -505px;
+    position: relative;
+    left: -310px;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    transform: scale(1.5) !important;
+  }
+
+  .arrow-down:focus {
+
+    color: rgb(209, 118, 33) !important;
+
+  }
+
+  .arrow-down-tow {
+
+    top: -105px;
+    position: relative;
+    left: -700px;
+    z-index: 3 !important;
+    color: rgb(255, 255, 255);
+    transform: scale(1.5) !important;
+  }
+
+  .container-select {
+  
+    position: relative;
+
+    top: -7px !important;
+    height: 459px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+
+  .countrySelect:active {
+    box-shadow: rgb(74, 81, 92)2px 5px 7px 1px,
+      rgba(77, 77, 77, 0.9) 2px 2px 2px 0px !important;
+    margin-top: 326px;
+  }
+
+  .citySelect:active {
+    box-shadow: rgb(74, 81, 92)2px 5px 7px 1px,
+      rgba(77, 77, 77, 0.9) 2px 2px 2px 0px !important;
+    margin-top: 322px;
+  }
+
+}
+
+@media only screen and (max-width: 992px) {
+
+
+  .container-select {
+    top: 275px !important;
+    margin-right: auto;
+    margin-left: auto;
+    display: block; background-color: rgb(25, 139, 206)!important;
+    position: relative !important;
+    top: 422px !important;
+  }
+
+  .arrow-down {
+    top: -505px;
+    position: relative;
+    left: -255px;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    transform: scale(1.5) !important;
+  }
+
+  .arrow-down:focus {
+
+    color: rgb(209, 118, 33) !important;
+
+  }
+
+  .arrow-down-tow {
+
+    top: -505px;
+    position: relative;
+    left: -525px;
+    z-index: 3 !important;
+    color: rgb(255, 255, 255);
+    transform: scale(1.5) !important;
+  }
+
+
+  .box {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: -110px;
+    position: relative;
+  }
+
+
+  .countrySelect {
+
+    width: 200px;
+    height: 40px !important;
+
+
+    position: absolute;
+    margin-right: -561px;
+    padding-right: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 431px;
+  }
+
+  .countrySelect:active {
+    position: relative;
+    top: 570px !important;
+    right: 50px !important;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .citySelect:active {
+    top: 190px !important;
+    position: relative !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+
+
+  .arrow-down {
+    top: -921px !important;
+    position: relative;
+    left: -240px !important;
+    z-index: 2;
+    color: rgb(255, 255, 255) !important;
+    transform: scale(1.5) !important;
+
+  }
+
+  .arrow-down:focus {
+
+    color: rgb(209, 118, 33) !important;
+
+  }
+
+  .arrow-down-tow {
+
+    top: -922px !important;
+    position: relative;
+    left: -489px;
+    z-index: 3 !important;
+    color: rgb(255, 255, 255);
+    bottom: 100px !important;
+    transform: scale(1.5) !important;
+
+  }
+
+
+
+
+
+
+
+
+
+  .course-header {
+    font-family: Raleway;
+    margin-bottom: -295px;
+    height: 579px;
+
+  }
+
+  .box {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: -556px !important;
+    position: relative;
+  }
+
+  .countrySelect {
+    width: 200px;
+    height: 35px !important;
+    position: absolute;
+    margin-right: -683px;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -773px;
+    border-radius: 12px !important;
+    border: rgb(14 14 14 / 90%) solid 1px !important;
+  }
+
+  .citySelect {
+    width: 200px;
+    height: 35px !important;
+    border: 0px;
+    position: absolute;
+    margin-right: -380px;
+
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+
+
+    justify-content: center;
+    margin-top: 760px;
+    border-radius: 12px !important;
+    border: rgb(14 14 14 / 90%) solid 1px !important;
+
+
+  }
+
+
+}
+
+@media screen and (max-width: 576px) {
+  .course-header {
+    font-family: Raleway;
+    margin-bottom: -484px;
+    height: 579px;
+}
+  .countrySelect {
+
+    width: 180px;
+    height: 35px !important;
+    border: rgb(14 14 14 / 90%) solid 1px !important;
+    font-size: 13px;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-right: 15px;
+    margin-top: 350px;
+    margin-right: -651px;
+    border-radius: 12px !important;
+  }
+
+  .citySelect {
+    width: 200px;
+    height: 35px !important;
+
+    position: absolute;
+    margin-right: -380px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 420px;
+    border-radius: 12px !important;
+    border: rgb(14 14 14 / 90%) solid 1px !important;
+  }
+
+
+  .arrow-down {
+    top: -1237px !important;
+    position: relative;
+    left: -225px !important;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    transform: scale(1.5) !important;
+
+  }
+
+  .arrow-down:focus {
+
+    color: rgb(209, 118, 33) !important;
+
+  }
+
+  .arrow-down-tow {
+
+    top: -1237px !important;
+    position: relative;
+    left: -465px;
+    z-index: 3 !important;
+    color: rgb(255, 255, 255);
+    bottom: 100px !important;
+    transform: scale(1.5) !important;
+  }
+
+
+
+
+}
+
+
+@media screen and (min-width: 1200px) {
+  option {
+    border-radius: 10px !important;
+    font-weight: 800 !important;
+    color: #ffffff !important;
+    ;
+  }
+
+
+  
+
+.container-select {
+  position: absolute;
+  top: 7073px!important;
+  width: 1158px;
+  max-height: 266px!important;
+  height: 263px!important;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0px;
+  padding-top: 693px;
+  display: block!important;
+  border-top: 7px solid #6e93b6!important;
+  background-color: #184dae!important;
+  margin-top: 590px;
+  border-start-end-radius: 65px!important;
+  border-start-start-radius: 65px!important;
+  height: 3px;
+  left: 0px;
+  padding-right: 63px;
+  margin-bottom: -11px;
+  z-index: 3;
+
+
+
+}
+  .arrow-down {
+    top: -717px;
+    position: relative;
+    left: -332px;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    transform: scale(1.5) !important;
+  }
+
+  .arrow-down:focus {
+
+    color: rgb(209, 118, 33) !important;
+
+  }
+
+  .arrow-down-tow {
+    top: -717px;
+    position: relative;
+    left: -715px;
+    z-index: 3 !important;
+    color: rgb(255, 255, 255);
+    transform: scale(1.5) !important;
+  }
+  .countrySelect:hover{
+     color: rgb(255, 255, 255)!important;
+     background-color: #020094!important;
+  }
+  .citySelect:hover{  
+    color: rgb(255, 255, 255)!important;
+    background-color: #020094!important;
+
+  }
+  .countrySelect {
+    transform: scale(.9);
+    width: 440px!important;
+    height: 65px !important;
+    border: 0px;
+    padding: 18px 3px;
+    position: absolute;
+    /* margin-right: -382px; */
+    font-size: 21px;
+    text-align: center;
+    padding-bottom: 12px !important;
+    font-weight: 400!important;
+    padding-right: 12px !important;
+    margin-top: 319px;
+    border-radius: 7px !important;
+    top: 172px;
+  
+    background-color: #0049af!important;
+    color: rgb(255, 255, 255)!important;
+    right: 110px;
+    z-index: 0;
+    margin-right: -91px;
+    margin-left: auto!important;
+    border:1px solid white!important;
+
+
+  }
+
+  .countrySelect:active {
+    top:174px;
+  }
+
+  .citySelect {
+    transform: scale(.9);
+    width: 440px!important;
+    height: 62px !important;
+    border: 0px;
+    padding: 6px 1px;
+    position: absolute;
+    /* margin-right: -382px; */
+    font-size: 21px;
+    text-align: center;
+    padding-bottom: 3px !important;
+    font-weight: 400!important;
+    padding-left: 288px !important;
+    margin-top: 319px;
+    border-radius: 7px !important;
+    top: 52px;
+   border:1px solid white!important;
+    background-color: #0049af!important;
+    color: rgb(255, 255, 255)!important;
+    right: 671px;
+    z-index: 0;
+    margin-right: -91px;
+    margin-left: auto!important;
+   
+}
+  .citySelect:active {
+    box-shadow: rgb(74, 81, 92)2px 5px 7px 1px,
+      !important;
+    margin-top: 321px;
+  }
+
+.ticket-image{
+  top: 468px;
+  display: flex!important;
+  transform: scale(.19)!important;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  right: 130px;
+  left: 0px;
+  z-index: 1;
+
+  width: 157px;
+  height: 119px;
+  border:2px solid white;
+  padding: 24px;
+  border-radius: 18px;
+ 
+
+}
+
+.ticket-image-tow{
+  top: 346px;
+  display: flex!important;
+  transform: scale(.19)!important;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  right: 689px;
+  left: 0px;
+  z-index: 1;
+
+
+
+
+
+  width: 157px;
+  height: 119px;
+  border:2px solid white;
+  padding: 24px;
+  border-radius: 18px;
+
+}
+
+
+}
+
