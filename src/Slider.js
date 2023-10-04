@@ -4,7 +4,7 @@ import './Slider.css'
 import React, { useState } from 'react';
 
 import { useEffect } from 'react';
-
+import { useLocation } from "react-router-dom";
 import selena from './';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
@@ -53,6 +53,14 @@ function Slider() {
 
   const [score, setScore] = useState(0);
   const [second, setSecond] = useState(0);
+  const { pathname } = useLocation();
+
+
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
 
   function decresereState() {
     setShow(show + 1)

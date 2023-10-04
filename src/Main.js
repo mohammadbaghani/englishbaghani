@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import './Main.css';
 
-
+import { useLocation } from "react-router-dom";
 
 import five from './nasim5.mp4';
 import Slider from "./Slider";
@@ -74,6 +74,15 @@ function Main() {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
   };
+
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+
 
 
   const [timer, setTimer] = React.useState('');
@@ -468,19 +477,16 @@ function Main() {
 
           >
 
+<div className='paraent-border-child' >
+  
+<div className=' i move'>
 
+</div>
 
-            <div className=' i move'>
+<div className='here move'>
+  مشاهده ویدیو های  آمورزشی بیشتر   <Link className='lin' to="/آموزشی"> اینجا</Link>
 
-            </div>
-
-            <div className='here move'>
-              مشاهده ویدیو های  آمورزشی بیشتر   <Link className='lin' to="/آموزشی"> اینجا</Link>
-
-            </div>
-
-
-
+</div>
 
 
 
@@ -498,130 +504,142 @@ function Main() {
 
 
 
-            <p className='backgroundimage move' height="300" onMouseEnter={() => setMutedVideo(!mutedVideo)}
-              onMouseLeave={() => setMutedVideo(!mutedVideo)} >
-
-              <video src={five} height="300" className='sheikhi' loop muted={mutedVideo} autoPlay>
-              </video>
-
-            </p>
-
-            <div class="flip-card english-register">
-              <div class="flip-card-inner">
-                <div class="flip-card-front ">
-                  <p className='register-text-tow '>
-                    ثبت نام  آنلاین در سایت
-
-                    <br>
-                    </br>
-                    بهره مندی از تخفیفات ماهانه
-                    <br>
-                    </br>
-
-                    خرید انیمشن های جذاب زبان
-                  </p>
-
-                  <img className='tick-register' src="tick_good_accept_ok_complete_icon_208164.png" />
-                  <img className='tick-register' src="tick_good_accept_ok_complete_icon_208164.png" />
-                  <img className='tick-register' src="tick_good_accept_ok_complete_icon_208164.png" />
-
-                  <a onClick={() => { navigate('/ثبت نام') }} className='register-text'>
-                    <img src="qu5.jpg" className='icon-image register-icon '>
-                    </img>
-                    ثبت نام</a>
-                </div>
-                <div class="flip-card-back ">
-                  <p className='register-text-tow-sub'>
-                    !کلیک کنید
-                  </p>
-                  <a onClick={() => { navigate('/ثبت نام') }} className='register-text  '>
-                    <img src="assigne name2.jpg" className='icon-image register-icon-back'>
-                    </img>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="flip-card english-store">
-              <div class="flip-card-inner">
-                <div class="flip-card-front ">
-                  <p className='store-text-tow'>
-                    فیلم انگلیسی با زیر نویس
-                    <br>
-                    </br>
-                    محبوب ترین
-                    آثار سال 2022
-                    <br>
-                    </br>
-                    جهت تسلط بیشتر در زبان
-                  </p>
-
-                  <img className='tick-store' src="tick_good_accept_ok_complete_icon_208164.png" />
-                  <img className='tick-store' src="tick_good_accept_ok_complete_icon_208164.png" />
-                  <img className='tick-store' src="tick_good_accept_ok_complete_icon_208164.png" />
-                  <a onClick={() => { navigate('/فروشگاه') }} className='store-text' >
-
-                    <img src="movieshop.png" className='icon-image store-icon'>
-                    </img>
-
-                    فروشگاه</a>
-                </div>
-                <div class="flip-card-back ">
-                  <p className='store-text-tow-sub' >
-                    !کلیک کنید
-                  </p>
-                  <a onClick={() => { navigate('/فروشگاه') }} className='store-text store-text-back' >
-
-                    <img src="buy-store.png" className='icon-image  store-icon-back '>
-                    </img>
-
-                  </a>
-
-                </div>
-              </div>
-            </div>
-            <a href="https://mohammadbaghani.github.io/musicplayer/" className='english-music-second'>
-              <img src="success.png" className='icon-image music-icon'>
-
-              </img>
-
-              آهنگ انگلیسی</a>
-
-            <div class="flip-card english-music">
-              <div class="flip-card-inner">
-                <div class="flip-card-front ">
-                  <p className='english-text-tow '>
 
 
-                    در یک موزیک پلیر حرفه ای
-                    <img className='tick-music' src="tick_good_accept_ok_complete_icon_208164.png" />
-                    <img className='tick-music' src="tick_good_accept_ok_complete_icon_208164.png" />
-                    <img className='tick-music' src="tick_good_accept_ok_complete_icon_208164.png" />
-                  </p>
-                  <a href="https://mohammadbaghani.github.io/musicplayer/" className='english-text '>
+
+<p className='backgroundimage move' height="300" onMouseEnter={() => setMutedVideo(!mutedVideo)}
+  onMouseLeave={() => setMutedVideo(!mutedVideo)} >
+
+  <video src={five} height="300" className='sheikhi'
+   loop muted={mutedVideo} autoPlay>
+  </video>
+
+</p>
+
+<div class="flip-card english-register">
+  <div class="flip-card-inner">
+    <div class="flip-card-front ">
+      <p className='register-text-tow '>
+        ثبت نام  آنلاین در سایت
+
+        <br>
+        </br>
+        بهره مندی از تخفیفات ماهانه
+        <br>
+        </br>
+
+        خرید انیمشن های جذاب زبان
+      </p>
+
+      <img className='tick-register' src="tick_good_accept_ok_complete_icon_208164.png" />
+      <img className='tick-register' src="tick_good_accept_ok_complete_icon_208164.png" />
+      <img className='tick-register' src="tick_good_accept_ok_complete_icon_208164.png" />
+
+      <a onClick={() => { navigate('/ثبت نام') }} className='register-text'>
+        <img src="qu6.jpg" className='icon-image register-icon '>
+        </img>
+        ثبت نام</a>
+    </div>
 
 
-                    <img src="listen3.jpg" className='icon-image music-icon'>
-                    </img>
-                    آهنگ انگلیسی</a>
+    <div class="flip-card-back ">
+      <p className='register-text-tow-sub'>
+        !کلیک کنید
+      </p>
+      <a onClick={() => { navigate('/ثبت نام') }} className='register-text  '>
+        <img src="assigne name2.jpg" className='icon-image register-icon-back'>
+        </img>
+      </a>
+    </div>
+  </div>
+</div>
 
-                </div>
-                <div class="flip-card-back ">
+<div class="flip-card english-store">
+  <div class="flip-card-inner">
+    <div class="flip-card-front ">
+      <p className='store-text-tow'>
+        فیلم انگلیسی با زیر نویس
+        <br>
+        </br>
+        محبوب ترین
+        آثار سال 2022
+        <br>
+        </br>
+        جهت تسلط بیشتر در زبان
+      </p>
 
-                  <p className='english-text-tow-sub'>
-                    !کلیک کنید
-                  </p>
-                  <a href="https://mohammadbaghani.github.io/musicplayer/" className='english-text '>
+      <img className='tick-store' src="tick_good_accept_ok_complete_icon_208164.png" />
+      <img className='tick-store' src="tick_good_accept_ok_complete_icon_208164.png" />
+      <img className='tick-store' src="tick_good_accept_ok_complete_icon_208164.png" />
+      <a onClick={() => { navigate('/فروشگاه') }} className='store-text' >
+
+        <img src="movieshop.png" className='icon-image store-icon'>
+        </img>
+
+        فروشگاه</a>
+    </div>
+    <div class="flip-card-back ">
+      <p className='store-text-tow-sub' >
+        !کلیک کنید
+      </p>
+      <a onClick={() => { navigate('/فروشگاه') }} className='store-text store-text-back' >
+
+        <img src="buy-store.png" className='icon-image  store-icon-back '>
+        </img>
+
+      </a>
+
+    </div>
+  </div>
+</div>
+<a href="https://mohammadbaghani.github.io/musicplayer/" className='english-music-second'>
+  <img src="success.png" className='icon-image music-icon'>
+
+  </img>
+
+  آهنگ انگلیسی</a>
+
+<div class="flip-card english-music">
+  <div class="flip-card-inner">
+    <div class="flip-card-front ">
+      <p className='english-text-tow '>
 
 
-                    <img src="listen6.png" className='icon-image music-icon music-icon-second'>
-                    </img>
-                  </a>
-                </div>
-              </div>
-            </div>
+        در یک موزیک پلیر حرفه ای
+        <img className='tick-music' src="tick_good_accept_ok_complete_icon_208164.png" />
+        <img className='tick-music' src="tick_good_accept_ok_complete_icon_208164.png" />
+        <img className='tick-music' src="tick_good_accept_ok_complete_icon_208164.png" />
+      </p>
+      <a href="https://mohammadbaghani.github.io/musicplayer/" className='english-text '>
 
-          </div>
+
+        <img src="listen.jpg" className='icon-image music-icon'>
+        </img>
+        آهنگ انگلیسی</a>
+
+
+
+    </div>
+    <div class="flip-card-back ">
+
+      <p className='english-text-tow-sub'>
+        !کلیک کنید
+      </p>
+      <a href="https://mohammadbaghani.github.io/musicplayer/" className='english-text '>
+
+
+        <img src="listen6.png" className='icon-image music-icon music-icon-second'>
+        </img>
+      </a>
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </div>
+
+
 
         </div>
         <div className='all-countrySelect'>
@@ -660,7 +678,7 @@ function Main() {
               در مورد
 
 
-              <h className="pardisan-doreha" >پردیسان </h> سوال داری ؟ پاسخش اینجاست
+              <h className="pardisan-doreha" >پردیسان </h> سوال داری ؟ پاسخش اینجاست.
 
 
 

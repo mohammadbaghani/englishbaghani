@@ -15,6 +15,6 @@ jobs:
       - name: update-liara
         env:
           LIARA_TOKEN: ${{ secrets.LIARA_API_TOKEN }}
-        run: |
+        run: 
           npm i -g @liara/cli@4
-          liara deploy --app="englishbaghani" --api-token="$LIARA_TOKEN" --detachgit 
+        liara deploy --app="englishbaghani" --api-token="$LIARA_TOKEN" --detach

@@ -88,17 +88,20 @@
 
 
     .shop-item-image {
-        height: 370px;
-        width: 87%;
+        height: 333px;
+        width: 100%;
         position: absolute;
         margin-right: auto;
         margin-left: auto;
         display: flex;
         right: 0px;
         left: 0px;
-        top: 9px;
+        top: 0px;
         z-index: 1;
-
+        border-radius: 0px;
+        border-top: 1px solid #2b2b2c;
+        border-bottom: 1px solid #2b2b2c;
+    
 
 
 
@@ -552,7 +555,7 @@
 
     .shopha:hover {
 
-        transform: scale(1.05) !important;
+        transform: scale(.76) !important;
     }
 
     .btn-actress {
@@ -837,7 +840,7 @@
 
     .shopha:hover {
 
-        transform: scale(.95) !important;
+        transform: scale(.76) !important;
     }
 
     .valed-parent-filters {
@@ -1532,19 +1535,19 @@
         text-shadow: none;
         color: #ffffff !important;
         font-family: 'dana';
-        font-size: 42px;
+        font-size: 37px;
         margin-top: -119px;
-        height: 156px;
+        height: 136px;
         padding-left: 30px;
         padding-right: 30px;
-        padding-top: 49px;
+        padding-top: 35px;
         position: absolute;
         text-align: center;
         top: 0px;
         font-weight: 400 !important;
         z-index: 1;
-        background-color: #160701;
-        /* border-radius: 35px; */
+        background-color: rgb(82, 131, 8);
+  
         margin-right: auto !important;
         margin-left: auto !important;
         width: 102% !important;
@@ -1559,48 +1562,49 @@
 
 
 
-    .bottom-text {
-
-        padding-top: 28px;
-        margin-top: 125px;
-        margin-bottom: 144px;
-        text-align: center;
-        justify-content: center !important;
-        font-family: dana !important;
-        align-items: center !important;
-        height: 57px !important;
-        direction: ltr;
-        z-index: 2;
-        font-size: 21px !important;
-        left: 0px !important;
-        top: -115px !important;
-        right: -1px !important;
-        position: absolute;
-        margin-right: auto !important;
-        margin-left: auto !important;
-        width: 200px !important;
-        display: flex !important;
-        color: #ece9e9 !important;
-        background-color: rgb(122, 35, 0);
-        border-radius: 55px !important;
-        border: 1px solid rgb(31, 26, 26);
 
 
+    
 
-    }
+.bottom-text {
+    padding-top: 27px;
+    margin-top: 125px;
+    margin-bottom: 144px;
+    text-align: center;
+    justify-content: center !important;
+    font-family: dana !important;
+    align-items: center !important;
+    height: 52px !important;
+    direction: ltr;
+    z-index: 2;
+    font-size: 20px !important;
+    left: 0px !important;
+    top: -205px !important;
+    right: -1px !important;
+    position: absolute;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 500px !important;
+    display: flex !important;
+    color: #ece9e9 !important;
+    background-color: rgb(97 144 24);
+    border-radius: 55px !important;
+    border: 1px solid rgb(31, 26, 26);
+}
 
     .actressimage {
 
         position: absolute !important;
         display: flex !important;
-        width: 385px !important;
-        height: 357px !important;
+        width: 357px !important;
+        height: 337px !important;
         top: 49px;
         justify-content: center !important;
-        border: 7px solid rgb(255 255 255);
+        border: 2px solid #303f2f;
         align-items: center !important;
-        border-radius: 18px !important;
-        transform: scale(.79);
+        border-radius: 6px !important;
+    
+    
 
     }
 
@@ -1640,47 +1644,49 @@
     }
 
     .btn-actress {
-        right: 17px;
+        right: 45px;
         left: 0px;
-        top: 325px;
-        height: 67px;
+        top: 326px;
+        height: 50px;
         color: rgb(255 255 255);
-        background-color: rgb(238, 91, 5);
+        background-color: #567900;
         border-top: none;
         border-right: none;
         border-left: none;
         border-image: initial;
-        /* border-bottom: 3px solid #dee2e6; */
         font-family: dana;
         z-index: 1;
         position: absolute !important;
         margin-right: auto !important;
         display: flex !important;
         margin-left: auto !important;
-        width: 199px !important;
+        width: 224px !important;
         text-align: center !important;
         align-items: center !important;
         justify-content: center !important;
         align-self: flex-sr !important;
-        font-size: 24px !important;
+        font-size: 21px !important;
         font-weight: 400 !important;
-        transform: skew(-2deg, -2deg);
-        border: 3px solid #ffffff;
-        border-radius: 5px;
+        transform: skew(-1deg, -1deg);
+        border: 1px solid #ffffff;
+        border-radius: 3px;
+    
+
+    
     }
 
     .btn-actress:active {
-        font-size: 33px !important;
-        transform: scale(1.08) skew(-2deg, -2deg) !important;
-
-
+        font-size: 22px !important;
+        transform: scale(1.01) skew(-2deg, -2deg) !important;
+        
+        color: rgb(199, 216, 185);
     }
 
     .btn-actress:hover {
         transition: all .2s;
 
         transform: scale(1.08) skew(-2deg, -2deg);
-        background-color: #502004 !important;
+        background-color: #1d5a00 !important;
 
     }
 
@@ -1713,10 +1719,10 @@
 
 
     .valed-parent-filters {
-        height: 154px;
+        height: 100px;
         width: 100%;
         align-items: center;
-        background-color: #b23528;
+        background-color: #80a919;
         padding-left: 40px;
         padding-right: 40px;
         z-index: 0;
@@ -1726,11 +1732,11 @@
         left: 0px;
         margin-bottom: -199px;
         position: relative;
-        padding-top: 36px;
+        padding-top: -16px;
         top: 7px !important;
         margin-top: 85px;
         justify-content: center;
-
+    
 
 
     }
@@ -1863,7 +1869,8 @@
         margin-left: auto;
         height: 7655px;
         right: -4px;
-        left: 0px;
+        left: 0px; 
+     
 
     }
 
@@ -1961,22 +1968,19 @@
     }
 
 
+.emily{
+    background-color: #ff1717!important;
+  
+}
+.emily-image{
+    border: 2px solid rgb(95, 8, 8)!important;
+}
+.emily:hover {
+    transition: all .2s;
 
-    .shop-item-image {
-        height: 540px;
-        width: 87%;
-        position: absolute;
-        margin-right: auto;
-        margin-left: auto;
-        display: flex;
-        right: 0px;
-        left: 0px;
-        top: 9px;
-        z-index: 1;
+    transform: scale(1.08) skew(-2deg, -2deg);
+    background-color: #8d0909!important;
 
-
-
-    }
-
+}
 
 }

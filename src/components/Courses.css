@@ -3,14 +3,13 @@
   position: relative;
   height: -moz-fit-content;
   height: 1431px;
-  margin-top: -6px;
+  margin-top: -16px;
   background-color: #adbeba;
   width: 91%;
   margin-right: auto;
   margin-left: auto;
-
+  top: -75px;
 }
-
 @media only screen and (max-width: 1200px) {
   .pruoducts-body {
     position: relative;

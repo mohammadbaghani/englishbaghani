@@ -159,7 +159,7 @@ font-size: 15px!important;
         color: rgb(255, 255, 255);
         width: 95px;
         height: 39px;
-       background-color: rgb(5, 3, 146);
+       background-color: rgb(2, 0, 145);
   
         position: absolute;
         /* right: 1181px; */
@@ -892,22 +892,23 @@ font-size: 15px!important;
     .button-register{
     
         color: rgb(255 255 255);
-        width: 122px;
-        height: 51px;
-        background-color: #0533c3;
+        width: 105px;
+        height: 41px;
+        background-color: #3561e6;
         position: absolute;
         /* right: 1181px; */
         z-index: 30;
         right: 1770px!important;
-        top: 20px!important;
+        top: 24px!important;
         padding: 3px 4px;
-        border-radius: 8px!important;
+        border-radius: 6px!important;
         margin-left: auto;
         text-align: center;
-        font-size: 16px;
+        font-size: 14px;
         font-family: 'dana';
         font-weight: 400!important;
         border: none!important;
+    
     
     }
     .button-register:active{

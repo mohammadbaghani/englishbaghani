@@ -6,13 +6,23 @@
 .pnp.js
 /src/CartProduct.js
 /src/index.js
-/src/Sheykhy.js
+/src/Accordian.css
 /src/Todo.js
 /src/TodoList.js
-
 /src/Form.js
+/src/Question.js
+/src/CoursesData.js
+
+
+/src/Shop.js
+
 /src/Users.js
+Question.js
+CoursesData.js
+
+
 /build
+
 
 # misc
 .DS_Store

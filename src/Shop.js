@@ -6,7 +6,8 @@ import './Shop.css'
 import Productcopy from './Productcopy'
 
 export default class Shop extends Component {
-
+  
+  
     constructor(props) {
         super(props)
         this.state = {
@@ -14,11 +15,11 @@ export default class Shop extends Component {
             count: 0,
 
             actresses: [
- { imgactress: 'images/4/1281504-photo-u-1143449928.jpeg', title: 'دیوانه,احمق,عاشق' },
-                { imgactress: 'images/4/she-considered-changing-her-last-name-when-she-started-acting-photo-u2.jpeg', title: 'کمک ' },
-                { imgactress: 'images/4/jennifer-lawrence-photo-u356.jpeg', title: 'خرگوش خانه ' },
+                { imgactress: 'images/4/3.jpg' },
+                { imgactress: 'images/4/5.jpg' },
+                { imgactress: 'images/4/7.jpeg' },
 
-],
+            ],
             products: [
                 { actress: 'c', id: 9, desc: 'با بازی امیلی بلانت', price: " 120,000", img: 'images/3/quiet_place_part_ii_ver6.jpg', title: 'مکان خلوت ' },
 
@@ -26,13 +27,13 @@ export default class Shop extends Component {
 
                 { actress: 'j', id: 5, desc: 'با بازی جنیفیر لورنس ', price: "90,000", img: 'images/2/mother_ver3.jpg', title: 'مادر' },
 
-{ actress: 'j', id: 8, desc: 'با بازی جنیفیر لورنس ', price: "120,000", img: 'images/2/no_hard_feelings.jpg', title: 'بدون احساس ناراحتی' },
-{ actress: 'e', id: 7, desc: 'با بازی امااستون ', price: "70,000", img: 'images/1/help_ver3.jpg', title: 'کمک ' },
+                { actress: 'j', id: 8, desc: 'با بازی جنیفیر لورنس ', price: "120,000", img: 'images/2/no_hard_feelings.jpg', title: 'بدون احساس ناراحتی' },
+                { actress: 'e', id: 7, desc: 'با بازی امااستون ', price: "70,000", img: 'images/1/help_ver3.jpg', title: 'کمک ' },
                 { actress: 'e', id: 4, desc: 'با بازی امااستون ', price: "80,000", img: 'images/1/crazy_stupid_love_ver3.jpg', title: 'دیوانه,احمق,عاشق' },
                 { actress: 'e', id: 3, desc: 'با بازی امااستون ', price: "60,000", img: 'images/1/house_bunny_ver2.jpg', title: 'خرگوش خانه ' },
-{ actress: 'j', id: 6, desc: 'با بازی جنیفیر لورنس ', price: " 50.000", img: 'images/2/joy_ver2.jpg', title: 'جوی' },
+                { actress: 'j', id: 6, desc: 'با بازی جنیفیر لورنس ', price: " 50.000", img: 'images/2/joy_ver2.jpg', title: 'جوی' },
 
- {
+                {
                     actress: 'c', id: 6, desc: 'با بازی امیلی بلانت', price: "200,000", img: 'images/3/edge_of_tomorrow_ver5.jpg', title:
                         'لبه فردا'
 
@@ -161,7 +162,7 @@ export default class Shop extends Component {
 
 
                 <figure className='shop-count'>
-                    <img className='shop-count-image' src="" />
+                <img class="shop-count-image" src="shop-white.png"/>
                     <span className='shop-count-count' >
 
                         {this.state.count}
@@ -233,22 +234,23 @@ export default class Shop extends Component {
                         <button class="btn-actress " type="button" onClick={this.onFilterj.bind(this)}>
                             جنیفیر لورنس
                         </button>
-                        <img className='actressimage' src={this.state.actresses[1].imgactress} />
+                        <img className='actressimage' src={this.state.actresses[2].imgactress} />
                     </div>
                     <div className='parent-actressimage' >
 
-                        <button class="btn-actress" type="button" onClick={this.onFilterc.bind(this)}>
-                            اما استون
+                        <button class="btn-actress emily" type="button" onClick={this.onFilterc.bind(this)}>
+
+                            امیلی بلانت
                         </button>
-                        <img className='actressimage' src={this.state.actresses[2].imgactress} />
+                        <img className='actressimage  emily-image' src={this.state.actresses[0].imgactress} />
 
                     </div>
                     <div className='parent-actressimage' >
 
                         <button class="btn-actress  " type="button" onClick={this.onFiltere.bind(this)}>
 
-                            امیلی بلانت
-                        </button> <img className='actressimage' src={this.state.actresses[0].imgactress} />
+                            اما استون
+                        </button> <img className='actressimage' src={this.state.actresses[1].imgactress} />
                     </div>
                 </div>
 

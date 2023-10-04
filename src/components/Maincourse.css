@@ -724,7 +724,7 @@
 
     }
 
-    .hover-left-child-price,
+   .hover-left-child-price,
     .hover-left-child-sath,
     .hover-left-child-online {
         top: -154px !important;
@@ -733,12 +733,20 @@
         position: relative;
         font-size: 15px;
         font-weight: 400 !important;
+        line-height: 26px !important;
+        letter-spacing: 1px !important;
+        word-spacing: 2px !important;
+
     }
 
     .hover-left-child-price-adad {
-
-        color: #ffffff !important;
-        font-family: 'y' !important;
+        line-height: 26px !important;
+        color: #dfb02d !important;
+        font-family: 'dana' !important;
+        letter-spacing: 1px !important;
+        word-spacing: 2px !important;
+        font-size: 17px !important;
+        font-weight: 400 !important;
     }
 
 
@@ -766,7 +774,8 @@
 
     .mainy:hover .hover-left {
         transition: all .7s ease-in;
-        top: 268px !important;
+        top: 275px !important;
+    
     }
 
 
@@ -777,7 +786,7 @@
         overflow: hidden;
         line-height: 0;
         font-size: .703125rem;
-        background-color: #ddb917;
+        background-color: #faf7eb;
         border-radius: 0.35rem;
         top: 34px;
         position: relative;
@@ -793,7 +802,7 @@
         color: #000000;
         padding-top: 8px;
         font-family: 'y';
-        background-color: #ffffff !important;
+        background-color: #f3c326 !important;
 
 
     }

@@ -154,16 +154,17 @@
         margin-top: -457px!important;
         background-color: transparent!important;
         z-index: 0;
-        color: rgb(252, 246, 231)!important;
+        color: rgb(255, 255, 255)!important;
         margin-right: auto;
         margin-left: auto;
         right: 11px;
         width: 456px;
         padding-top: -5px;
-        /* display: flex; */
+   
         text-align: center;
-        border-radius: 3px;
-        border-bottom: 3px rgb(240 255 246) solid!important;
+        border-radius: 0px;
+        
+        border-bottom: 3px rgb(238, 199, 116) solid!important;
         font-family: 'dana';
     }
 

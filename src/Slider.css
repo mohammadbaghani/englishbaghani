@@ -324,9 +324,9 @@
         top: 311px !important;
         border-radius: 3px;
         background-color: #eef1fb;
-        right: 37px!important;
-    
-    
+        right: 37px !important;
+
+
 
     }
 
@@ -537,84 +537,73 @@
     }
 
     .pardisan-doreha {
-        font-family: 'dana';
-        text-shadow: 2px 2px 2px rgb(0 0 0);
-        font-size: 43px !important;
-        color: #f0b000;
-        font-weight: 700 !important;
-        margin-right: 5px;
-        margin-left: 5px;
+        font-family: 'dana' !important;
+        font-size: 38px !important;
+        font-weight: 400 !important;
+        margin-right: 5px !important;
+        margin-left: 5px !important;
+        color: #3b59b7 !important;
+    
     }
 
     .pardisan-shop {
-        font-family: 'dana';
-        text-shadow: 1px 1px 1px rgb(87 87 87);
-        color: #e53320;
-        font-weight: 700 !important;
-        margin-right: 5px;
-        margin-left: 5px;
-        margin-right: 17px;
-        font-size: 49px;
+  
+            font-family: 'dana';
+            font-weight: 400 !important;
+            margin-right: 5px;
+            margin-left: 5px;
+            margin-right: 17px;
+            font-size: 38px;
+        
+
     }
 
     .slider-details-soalha {
         font-family: 'dana';
         position: absolute !important;
-        width: 629px !important;
-        /* font-size: 47px !important; */
-        /* color: #0c0c2d !important; */
+        width: 829px !important;
         margin-right: auto !important;
         margin-left: auto !important;
-        right: 135px !important;
+        right: 0px !important;
         left: 0px !important;
         line-height: 60px !important;
         padding: 21px 12px 12px 12px;
         border-bottom-left-radius: -15px;
-        /* border-bottom-right-radius: 15px; */
         height: 102px !important;
         display: block;
-        /* top: -211px; */
-        margin-top: 245px;
+        margin-top: 227px;
         text-align: center;
         font-weight: 400 !important;
         margin-bottom: 11px;
         z-index: 9;
-        font-size: 28px !important;
+        font-size: 38px !important;
         color: rgb(0 0 0) !important;
-        border-bottom: 1px solid #000000;
-        /* border-radius: 12px; */
-
-
-
     }
 
     .slider-details {
-        font-family: 'vazir';
+
         position: relative;
         display: block;
         top: 143px;
         text-align: center;
         margin-bottom: 64px;
         z-index: 1;
-        padding: 10px 27px 4px 29px;
+        padding: 10px -28px 4px 29px;
         margin-top: -26px;
-        transform: scale(1) !important;
-        width: 2939px;
-        color: #fa7d15 !important;
+        width: 3038px;
         margin-right: auto !important;
         margin-left: auto !important;
         line-height: 24px !important;
         height: 75px !important;
         font-weight: 400 !important;
-        font-size: 24px !important;
+        font-size: 26px !important;
         border-radius: 64px !important;
-        transform: rotate(-15deg);
+
         list-style-type: square !important;
-        /* background-color: blue; */
-        right: -376px;
-        border: 2px solid blue;
+
+        right: -490px;
+
         padding-top: 21px;
-    
 
     }
 
@@ -756,28 +745,28 @@
 
     .slider-details-soalha {
         font-family: 'dana';
-        position: absolute !important;
-        width: 734px !important;
-        font-size: 32px !important;
-        color: #0c0c2d !important;
-        margin-right: auto !important;
-        margin-left: auto !important;
-        right: 0px !important;
-        left: 0px !important;
-        line-height: 73px !important;
-        padding: 10px 12px 12px 12px;
-        border-bottom-left-radius: -15px;
-        /* border-bottom-right-radius: 15px; */
-        height: 108px !important;
-        display: block;
-        /* top: 52px; */
-        margin-top: -372px;
-        text-align: center;
-        font-weight: 400 !important;
-        margin-bottom: -17px;
-        z-index: 9;
-        background-color: white;
-    
+    position: absolute !important;
+    width: 803px !important;
+    font-size: 38px !important;
+    color: #0c0c2d !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    right: 0px !important;
+    left: 0px !important;
+    line-height: 73px !important;
+    padding: 10px 12px 12px 12px;
+    border-bottom-left-radius: -15px;
+    /* border-bottom-right-radius: 15px; */
+    height: 108px !important;
+    display: block;
+    /* top: 52px; */
+    margin-top: -336px;
+    text-align: center;
+    font-weight: 400 !important;
+    margin-bottom: -17px;
+    z-index: 9;
+    background-color: white;
+
 
 
     }
@@ -807,8 +796,8 @@
     .slider-details-doreha {
         font-family: 'dana';
         position: absolute !important;
-        width: 661px !important;
-        font-size: 47px !important;
+        width: 725px !important;
+        font-size: 38px !important;
         color: #0c0c2d !important;
         margin-right: auto !important;
         margin-left: auto !important;
@@ -821,11 +810,13 @@
         height: 77px !important;
         display: block;
         /* top: -211px; */
-        margin-top: -338px;
+        margin-top: -211px;
         text-align: center;
         font-weight: 400 !important;
         margin-bottom: 1px;
         z-index: 2;
+    
+
     }
 
     .iWchow {
@@ -1183,8 +1174,8 @@
         line-height: 34px;
         text-align: center;
         position: absolute !important;
-    
-       
+
+
 
 
     }
@@ -1218,7 +1209,7 @@
         padding-right: -37px;
         padding-right: -37px;
         /* left: 33px; */
-    
+
 
 
     }
@@ -1410,7 +1401,7 @@
 
         font-family: 'dana' !important;
         position: absolute !important;
-        width: 771px!important;
+        width: 771px !important;
         font-size: 34px !important;
         color: #000000 !important;
         margin-right: auto !important;
@@ -1428,7 +1419,7 @@
         text-align: center;
         font-weight: 400 !important;
         margin-bottom: 317px;
-    
+
     }
 }
 
@@ -1663,17 +1654,17 @@
 
     .con {
         margin-top: -99px !important;
-    height: 703px !important;
-    top: 59px !important;
-    position: absolute;
-    padding-top: 263px !important;
-    width: 557px !important;
-    left: 0px !important;
-    right: 0px !important;
-    margin-right: auto !important;
-    margin-left: auto !important;
-    background-color: transparent;
-    margin-bottom: 3px;
+        height: 703px !important;
+        top: 59px !important;
+        position: absolute;
+        padding-top: 263px !important;
+        width: 557px !important;
+        left: 0px !important;
+        right: 0px !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        background-color: transparent;
+        margin-bottom: 3px;
 
 
 
@@ -1725,37 +1716,37 @@
         line-height: 28px;
         text-align: center;
         padding-right: 58px;
-    
+
     }
 
     .score {
         position: absolute !important;
-    direction: rtl !important;
-    top: 18px;
-    color: #ffffff;
-    font-family: 'dana' !important;
-    padding: -0.75em 11.4em;
-    font-size: 12px !important;
-    font-weight: 400 !important;
-    line-height: 1;
-    text-align: center !important;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-top-right-radius: 40px !important;
-    align-items: center !important;
-    display: flex !important;
-    width: 133px;
-    height: 30px;
-    margin-right: 0px !important;
-    justify-content: center;
-    right: 56px;
-    /* padding-right: 81px; */
-    background-color: #1e42b3;
-    border-radius: 40px;
-    align-items: center;
-    text-align: center;
+        direction: rtl !important;
+        top: 18px;
+        color: #ffffff;
+        font-family: 'dana' !important;
+        padding: -0.75em 11.4em;
+        font-size: 12px !important;
+        font-weight: 400 !important;
+        line-height: 1;
+        text-align: center !important;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-top-right-radius: 40px !important;
+        align-items: center !important;
+        display: flex !important;
+        width: 133px;
+        height: 30px;
+        margin-right: 0px !important;
+        justify-content: center;
+        right: 56px;
+        /* padding-right: 81px; */
+        background-color: #1e42b3;
+        border-radius: 40px;
+        align-items: center;
+        text-align: center;
 
-       
+
     }
 
     .badge {
@@ -2104,7 +2095,7 @@
         z-index: 1;
 
 
-        /* justify-content: flex-start; */
+
 
 
     }
@@ -2162,8 +2153,8 @@
     .pardisan {
         font-family: 'dana';
 
-        font-size: 44px !important;
-        color: #111110;
+        font-size: 35px!important;
+        color: #5e5e5c!important;
         font-weight: 400 !important;
         margin-right: 5px;
         margin-left: 5px;
@@ -2172,13 +2163,13 @@
 
     .pardisan-doreha {
         font-family: 'dana';
-        /* text-shadow: 1px 2px 1px rgb(49 47 47); */
-        font-size: 50px !important;
-        color: #e3e039;
+        font-size: 39px !important;
+        color: #3b59b7;
         font-weight: 400 !important;
         margin-right: 5px;
         margin-left: 6px;
         direction: rtl !important;
+
 
 
 
@@ -2213,10 +2204,10 @@
         line-height: 31px !important;
         padding: 12px 12px 12px 12px;
         border-bottom-left-radius: -15px;
-        /* border-bottom-right-radius: 15px; */
+
         height: 77px !important;
         display: block;
-        /* top: -211px; */
+
         margin-top: -49px;
         text-align: center;
         font-weight: 400 !important;
@@ -2229,12 +2220,11 @@
     }
 
     .slider-details-soalha {
-        padding: 46px 65px 74px 74px !important;
-
+        padding: 25px 0px 19px 0px !important;
         background-color: transparent;
         font-family: 'dana';
         position: absolute !important;
-        font-size: 45px !important;
+        font-size: 39px !important;
         color: rgb(0 0 0) !important;
         margin-right: auto !important;
         margin-left: auto !important;
@@ -2242,16 +2232,16 @@
         left: 2px !important;
         line-height: 30px !important;
         border-bottom-left-radius: -15px;
-        height: 119px !important;
+        height: 100px !important;
         display: block;
         margin-top: -706px;
         text-align: center;
         font-weight: 400 !important;
         margin-bottom: 1px;
         z-index: 35;
-        border-bottom: 1px solid rgb(26 26 25);
+
         background-color: transparent;
-        width: 1057px;
+        width: fit-content;
 
 
 
@@ -2259,29 +2249,27 @@
 
     .slider-details {
         font-family: 'dana';
-        /* display: block; */
+
         top: 147px;
         text-align: right;
         z-index: 1;
         padding: 39px 27px 15px 27px;
         margin-top: -13px;
         transform: scale(1.09);
-        /* background-color: #ffffff; */
-        color: #fa7d15 !important;
-        /* margin-left: auto !important; */
+
         right: 80px !important;
-        /* left: 449px !important; */
+
         line-height: 83px !important;
         height: 112px !important;
         font-weight: 400 !important;
-        font-size: 27px !important;
+        font-size: 35px!important;
         position: absolute !important;
         margin-right: auto;
         width: -moz-fit-content;
         width: fit-content;
         list-style-type: square;
 
-
+        color: #5e5e5c!important;
     }
 
     .v {
@@ -2307,29 +2295,44 @@
 
 
     .hhh {
+
+        font-size: 30px !important;
+
+
+
+
+
+
         position: absolute !important;
         margin-right: auto !important;
         margin-left: auto !important;
-        right: -452px !important;
+        right: -402px !important;
         left: 0px !important;
-        font-size: 20px !important;
+
         font-weight: 400 !important;
         z-index: 1 !important;
         border-radius: -1px;
         border-bottom-left-radius: -1px !important;
         border-bottom-right-radius: -3px !important;
-        color: #241d1d !important;
-        background-color: transparent !important;
+        color: #000000 !important;
+        background-color: rgb(233, 247, 255) !important;
         margin-bottom: -73px;
-        width: 57% !important;
-        height: 103%;
-        padding-top: 260px !important;
-        top: -776px !important;
-        padding-right: 66px;
+        width: 50% !important;
+        height: 101%;
+        padding-top: 138px !important;
+        top: -775px !important;
+        padding-right: 44px;
         overflow: hidden !important;
         text-align: center;
         display: flex;
-        line-height: 55px;
+        line-height: 55px !important;
+        font-family: 'dana' !important;
+        font-weight: 400 !important;
+        opacity: .7 !important;
+        padding-left: 44px;
+
+
+
 
     }
 
@@ -2349,7 +2352,7 @@
         direction: rtl !important;
         top: 537px;
         color: #ffffff !important;
-        background-color: #2041e5;
+        background-color: #e58920;
         font-family: 'y' !important;
         font-size: 22px !important;
         font-weight: 400 !important;
@@ -2377,24 +2380,26 @@
 
     .score {
 
-        top: 63px;
-        color: #ffffff;
+        top: 0px !important;
         display: flex;
-        width: 320px;
-        right: 108px;
+        width: 394px;
+        right: 0px;
         justify-content: center !important;
         position: absolute !important;
         direction: rtl !important;
-        font-family: 'vazir';
-        font-size: 24px !important;
+        font-family: 'dana';
+        font-size: 28px !important;
         font-weight: 400 !important;
         align-items: center !important;
-        height: 65px !important;
+        height: 84px !important;
         margin-right: auto !important;
-        background-color: #0032d0;
-        border-radius: 31px;
+        color: #ffffff !important;
+        background-color: rgb(11 41 137) !important;
+        border-radius: 1px;
         text-align: center !important;
-
+        z-index: 0;
+        opacity: 1 !important;
+        border: none !important;
 
 
     }
@@ -2478,19 +2483,20 @@
         margin-left: auto;
         margin-right: auto;
         z-index: 0;
-        width: 372px !important;
+        width: 398px !important;
         padding-bottom: 0px;
         padding-right: 0px;
         padding-left: -1px;
         padding-top: 0px;
         position: absolute;
-        top: 17px !important;
-        height: 92% !important;
-        right: 371px;
+        top: 0px !important;
+        height: 100% !important;
+        right: 391px;
         left: 0px;
         z-index: 1;
-        border-radius: 15px;
-        /* border: 1px solid #8b8888; */
+        border-radius: -8px;
+
+
 
 
     }

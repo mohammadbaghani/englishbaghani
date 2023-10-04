@@ -1,11 +1,3 @@
-@font-face {
-  font-family: '';
-  src: url(/public/fonts/YekanBakhFaNum-Regular.woff2) format('woff2'),
-    url(/public/fonts/YekanBakhFaNum-Regular.woff) format('woff'),
-    url(/public/fonts/YekanBakhFaNum-Regular.ttf) format('truetype'),
-    url(/public/fonts/LuckiestGuy.otf) format('otf');
-
-}
 
 .subtext {
   font-size: 15px !important;
@@ -194,8 +186,8 @@ background-color: transparent !important;
     left: 0px !important;
     padding: 21px 12px 12px 12px;
     height: 159px !important;
-    /* top: -211px; */
-    margin-top: -3510px;
+
+    margin-top: -3845px;
 
 
 }
@@ -218,13 +210,14 @@ background-color: transparent !important;
 }
 
 .valed-paraent-border {
-  top: 1195px!important;
+  top: 893px!important;
   position: relative!important;
   right: -59px;
   left: 0px;
   margin-right: auto;
   margin-left: auto;
   width: 800px;
+
 }
   .font {
     color: #000000!important;
@@ -400,7 +393,7 @@ background-color: transparent !important;
     width: 99%!important;
     margin-right: auto!important;
     margin-left: auto!important;
-    top: -4207px;
+    top: -4553px;
     z-index: 5;
     margin-top: -241px;
     padding-left: 0px!important;
@@ -430,7 +423,7 @@ background-color: transparent !important;
     fill: #101038!important;
 }
 .valed-paraent-border {
-  top: -158px!important;
+  top: -482px!important;
   position: relative!important;
   right: 0px;
   left: 0px;
@@ -1065,7 +1058,7 @@ color: rgb(0, 0, 0)!important;
 
 
 transition: all .2s;
-color: rgb(0, 0, 0)!important;
+color: rgb(233, 138, 30)!important;
   }
 
   .acordian {
@@ -1075,9 +1068,9 @@ color: rgb(0, 0, 0)!important;
     display: flex;
     padding: 10rem 4px;
     font-family: 'yekan';
-    top: 848px;
+    top: 298px;
     position: relative;
-    margin-top: -1650px;
+    margin-top: -2063px;
     margin-bottom: 1px;
     height: 912px;
     padding-top: 478px;
@@ -1133,7 +1126,7 @@ color: rgb(0, 0, 0)!important;
 
 
   .font {
-    color: rgb(115, 93, 119)!important;
+    color: rgb(90 94 109)!important;
     text-align: right;
     direction: rtl;
     height: 33px;

@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import './Product.css'
-import  Slider from './Slider'
+import MovieIcon from '@mui/icons-material/Movie';
+import PaidIcon from '@mui/icons-material/Paid';
+
 export default class Product extends Component {
 
     clickHandler(id) {
@@ -34,37 +36,42 @@ export default class Product extends Component {
 
 
 
-                    <div class="icon-title">
+                    <div class="icon-title">   <MovieIcon />
                         {title}
                     </div>
-                
-                        <img class="shop-item-image " src={img} />
-                        <div class="reg-box">
-                            <div class="reg">
-                                {desc}
-                            </div>
+
+                    <img class="shop-item-image " src={img} />
+                    <div class="reg-box">
+                        <div class="reg">
+
+
+
+                            {desc}
                         </div>
+                    </div>
 
 
 
-                        <span class="shop-item-price"> 
-                       
-                       
-                         {price}   
-                        
+                    <span class="shop-item-price">
+
+                        <PaidIcon />
+
+                        {price}
+
                         تومان
-                        </span>
+                    </span>
 
-                        <button
-                            class=" btn-primary-film shop-item-button"
-                            type="button"
-                            onClick={this.clickHandler.bind(this, id)}>
-                            خرید
-                            <img className='shop-delete-image ' src="" />
+                    <button
+                        class=" btn-primary-film shop-item-button"
+                        type="button"
+                        onClick={this.clickHandler.bind(this, id)}>
+                        خرید
 
-                        </button>
+                        <img className='shop-delete-image ' src="shop-white.png" />
 
-                 
+                    </button>
+
+
 
 
 
