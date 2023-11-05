@@ -38,47 +38,48 @@ export default class Ticket extends React.Component {
     render() {
         return (
             <>
+
                 <div className="container-select">
+                    <div className="container-select-child">
+                        <header class="course-header">
 
-                    <header class="course-header">
+                            <Headercopy class="course-header" />
+                        </header>
 
-                        <Headercopy class="course-header" />
-                    </header>
+                        <div className="container">
 
-                    <div className="container">
-
-                        <div className="col-md-6 box">
+                            <div className="col-md-6 box">
 
 
 
-                            <img
-                                src='ticket-image (2).png' className="ticket-image">
-                            </img>
-                            <select className="countrySelect" onChange={this.selectHandler}>
-                                <option value="-1">انتخاب گروه آموزشی </option>
-                                <option className="option" value="Iran">بزرگسالان</option>
-                                <option className="option" value="Turkey">کودکان</option>
-                                <option className="option" value="US">پیشرفته</option>
-                            </select>
-                        </div>
-                        <div className="col-md-6 box">   <img
+                                <img
+                                    src='ticket-image (2).png' className="ticket-image">
+                                </img>
+                                <select className="countrySelect" onChange={this.selectHandler}>
+                                    <option   className="option" value="-1">انتخاب گروه آموزشی </option>
+                                    <option className="option" value="Iran">بزرگسالان</option>
+                                    <option className="option" value="Turkey">کودکان</option>
+                                    <option className="option" value="US">پیشرفته</option>
+                                </select>
+                            </div>
+                            <div className="col-md-6 box">   <img
                                 src='ticket-image (2).png' className="ticket-image-tow">
                             </img>
-                            <select className="citySelect move-select">
-                                {this.state.mainCountryCities.length ? this.state.mainCountryCities.map(city => (
-                                    <option value={city} key={city}>{city}</option>
-                                )) : (
-                                    <option value="-1" className="citySelect">لیست دوره ها</option>
-                                )}
-                            </select>
+                                <select className="citySelect move-select">
+                                    {this.state.mainCountryCities.length ? this.state.mainCountryCities.map(city => (
+                                        <option value={city} key={city}   className="option">{city}</option>
+                                    )) : (
+                                        <option value="-1" className="citySelect  option">لیست دوره ها</option>
+                                    )}
+                                </select>
+                            </div>
+
                         </div>
 
+                        </div>
                     </div>
-
-
-                </div>
-            </>
-        )
+                </>
+                )
     }
 }
 

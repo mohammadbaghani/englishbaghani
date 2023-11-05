@@ -19,7 +19,10 @@ body {
 }
 
 
-
+@font-face {
+  font-family: 'dana';
+  src: url(./DanaFaNum-Medium.woff2) format('woff2'), url(./DanaFaNum-Medium.woff) format('woff'), url(./LuckiestGuy.otf) format('otf');
+}
 
 header {
 
@@ -46,15 +49,15 @@ form button {
 }
 
 form button {
-  background: #0a6cdb;
+  background: #a10000;
   color: rgb(255 255 255);
   cursor: pointer;
   transition: all 0.3s ease;
-  border-radius:8px;
+  border-radius: 8px;
   height: 40px !important;
   width: 40px !important;
   padding-bottom: -4px !important;
-  margin-right: 12px;
+  margin-right: -7px;
   border: #d4d1d1 solid 1px;
   z-index: 1;
   padding-right: 10px;
@@ -68,7 +71,7 @@ form button {
 
 form button:hover {
   transition: all .1s !important;
-  background: blue;
+  background: #8f0000;
   font-weight: 900;
   color: #ffffff;
 }
@@ -84,20 +87,30 @@ form button:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+right: 0px;
   top: 41px;
   z-index: 1;
-  left: 130px;
+
+  position:absolute!important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  left: 0px !important;
+  width: 90% !important;
 }
 
 .todo-list {
+
   min-width: 21%;
   list-style: none;
-  top: 1030px;
-  right: 337px;
-  position: relative;
-}
+  top: 428px;
+  right: 0px !important;
+  position: relative !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  left: 0px !important;
+  width: 90% !important;
 
+}
 .todo {
   display: flex;
   justify-content: space-between;
@@ -115,21 +128,28 @@ form input,
 }
 
 .todo li {
-  flex: 1 1;
-  background-color: #1e42b3;
-  height: 46px;
+  border: solid 1px #cdcdcd;
+  background-color: #eeeeef;
+  height: 50px;
   text-align: center;
   align-items: center;
   display: flex;
   justify-content: center;
- width:80% !important;
-  right: -41px;
+  width: 100% !important;
+  margin-right: auto!important;
+  margin-left: auto!important;
+  right: 0px!important;
+  left: 0px!important;
+  width: 623px !important;
   position: relative;
-  margin-right: -440px;
-  border-radius: 15px;
-  border: solid 2px #d2d2d2;
-  color: white;
-  font-size: 17px !important;}
+  border-radius: 7px;
+ 
+  color: #000000;
+  font-size: 21px !important;
+  font-family: 'dana' !important;
+  font-weight: 400!important;
+
+}
 
 .trash-btn,
 .check-btn {
@@ -193,10 +213,12 @@ select {
   cursor: pointer;
   padding: 1rem;
   padding-right: 88px;
-  font-family: 'y';
+  font-family: 'dana'!important;
+  background-color: transparent!important;
 }
 
 .select {
+  font-family: 'dana'!important;
   float: left;
   display: flex;
   align-self: flex-end;
@@ -205,9 +227,9 @@ select {
   position: absolute;
   display: flex;
   width: 286px;
-  top: 14px;
+  top: 31px;
+  background-color: transparent!important;
 }
-
 .filter-todo {
   text-align: center;
   z-index: 1;
@@ -237,23 +259,22 @@ select {
   position: relative;
   border-left: none;
   border-right: none;
-  margin-top:761px;
-  /* height: 1700px; */
+  margin-top: 766px;
   padding-bottom: 30px;
   padding-bottom: 30px;
-  z-index: 0!important;
+  z-index: 0 !important;
   margin-right: 65.9px;
   z-index: 0 !important;
   margin-left: 18px;
   background-clip: back;
-  /* background-color: white; */
   box-shadow: #86919c 2px 3px 4px 1px;
   border-radius: 0px;
   width: 100%;
-  height: 647px !important;
-  top: 221px;
+  height: 847px !important;
+  top: 11px;
   margin-right: auto;
   margin-left: auto;
+
 }
 
 header {
@@ -262,10 +283,10 @@ header {
 }
 
 ::-webkit-input-placeholder {
-  color: #168670 !important;
+  color: #000000 !important;
 
   padding-right: -15px;
-  font-family: 'y';
+  font-family: 'dana';
   opacity: .6 !important;
   font-size: 14px !important;
   position: relative;
@@ -274,8 +295,28 @@ header {
 }
 
 @media only screen and (max-width: 1200px) {
+ .todo-li{
+
  
+
   
+  flex: 1 1;
+  background-color: #1e42b3;
+  height: 46px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 80% !important;
+  right: -41px;
+  position: relative;
+  margin-right: -440px;
+  border-radius: 15px;
+  border: solid 2px #d2d2d2;
+  color: white;
+  font-size: 17px !important;
+}
+
 
 
   .fa,
@@ -325,23 +366,36 @@ header {
 
 
   .todo-list {
-    /* min-width: 30%; */
-    list-style: none;
-    top: 1455px;
-  }
-
-  .containerinput {
-    background-image:url('blue-monday-with-notepad-pen-wooden-cubes.jpg')!important;
-
-background-size: 100% 965px ;
     
+    list-style: none;
+    top: 767px;
+}
+  .containerinput {
+
+
+    background-size: 100% 965px;
+
     position: relative;
     top: -819px;
-    /* right: -720px; */
-    height:965px;
- 
+  
+    height: 965px;
+
     width: 100%;
-}
+  }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
 
   .select::selection {
     background-color: blue !important;
@@ -387,6 +441,8 @@ background-size: 100% 965px ;
     transform: scale(.91) !important;
   }
 
+
+  
   .check-btn:active {
     transform: scale(.91) !important;
   }
@@ -402,25 +458,25 @@ background-size: 100% 965px ;
     padding: 0.5rem 1rem;
     background: blue;
     color: rgb(255 255 255);
-    /* cursor: pointer; */
+
     transition: all 0.3s ease;
-    border-radius:10px;
+    border-radius: 10px;
     height: 40px !important;
     width: 40px !important;
     padding-top: 16px;
     margin-right: -38px;
-    border: #ffffff solid 1px!important;
+    border: #ffffff solid 1px !important;
     z-index: 1;
     padding-right: 10px;
-    /* left: 601px; */
+
     position: relative;
     display: block;
     margin-left: 135px;
-    /* right: 41px; */
-    top:-6px;
+
+    top: -6px;
 
     transform: scale(1.1) !important;
-}
+  }
 
   .trash-btn,
   .check-btn {
@@ -457,7 +513,7 @@ background-size: 100% 965px ;
   }
 
   .select:hover::after {
-    background-color: blue;
+   
     color: white;
 
   }
@@ -476,7 +532,7 @@ background-size: 100% 965px ;
   select {
     width: 300px;
     text-align: center;
-    background-color: #ffffff;
+    background-color: transparent!important;
     color: rgb(0 0 0);
     font-size: 17px;
     height: 51px;
@@ -492,14 +548,14 @@ background-size: 100% 965px ;
     background-color: #ffffff;
     color: rgb(0 0 0);
     font-size: 17px;
-}
+  }
 
   .todo-input {
-  
-    width: 300px;
+
+    width: 240px;
     font-size: 26px;
-    border-radius: 0px!important;
-    border: solid 1px #c2c2c2;
+    border-radius: 0px !important;
+    border: solid 1px #cdcdcd;
     background-image: linear-gradient(to bottom right, #ffffff, #ffffff);
     margin-right: auto;
     height: 30px;
@@ -509,17 +565,19 @@ background-size: 100% 965px ;
     position: absolute;
     display: flex;
     align-self: flex-start;
-    right: 8px;
-    top: 23px;
+    right: 8px;top: 40px;
+   
 
-}
+  }
 
   .todo-button {
+    background: #a10000;
     position: absolute;
-    right: 448px;
+    right: 343px;
     height: 200px;
-    top: 19px;
-    transform: scale(1.5);
+    top: 35px;
+    transform: scale(1.1)!important;
+
 }
 
   .select::after {
@@ -534,16 +592,16 @@ background-size: 100% 965px ;
 
     color: white;
     z-index: 1;
-    font-family: 'y';
-    background: blue;
-    border: 3px solid blue !important;
+    font-family: 'dana';
+    background: #a10000;
+    border: 3px solid #a10000 !important;
     border-end-start-radius: 15px !important;
     border-start-start-radius: 15px !important;
 
   }
 
   .select:hover::after {
-    background: blue;
+    background: #8a0000 ;
     color: white;
     top: .081rem !important;
     border-radius: 2px;
@@ -552,58 +610,85 @@ background-size: 100% 965px ;
 
   .todo-header {
     z-index: 0 !important;
-    width: 86.8rem;  background-color: #ffffff;
-    box-shadow: #98a4b1 2px 3px 4px 1px;
-    border-radius: 0px;
+    width: 86.8rem;
+
+
+    border-radius: 8px !important;
     width: 875px;
     height: fit-content;
-    top:16px;
-    /* padding-top: 299px; */
+    top: 16px;
+
     border: solid 2px #dddfdf;
 
   }
 
   .option-todo {
-    color: blue !important;
+    font-family: 'dana';
+    color: rgb(20, 1, 1) !important;
+    font-weight: 400;
+    font-size: 17px; 
 
   }
 
   option {
     border-radius: 10px !important;
     font-weight: 100 !important;
-    font-family: 'vazir';
-    font-size: 15px !important;
-    background-color: #fbf7f6;
+    font-family: 'dana';
+    font-size: 16px !important;
+    
     height: 1158px;
-    COLOR: black!important;
+    COLOR: black !important;
   }
+ 
+  .todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem;
+    background: white;
+    font-size: 1.5rem;
+    transition: all 0.5s ease;
+    margin-bottom: 38px;
+    position: relative;
+    top: -386px;
+    margin-right: auto!important;
+    margin-left: auto!important;
+    right: 0px!important;
+    left: 0px!important;
+    width: 780px;
+  
+}
+
+
 }
 
 @media only screen and (max-width: 992px) {
   .todo li {
     flex: 1 1;
-   
-    height: 46px!important;
+
+    height: 46px !important;
     text-align: center;
     align-items: center;
     display: flex;
     justify-content: center;
-   width:60% !important;
-    right: -41px;
+    width: 60% !important;
+    right: -40px!important;
     position: relative;
-    margin-right:120px;
-    border-radius: 15px;
-    border: solid 2px #d2d2d2;
-    color: white;
-    top:0px!important;
-    font-size: 17px !important;}
+    margin-right: 120px;
+   
+   width: 600px!important;
+    color: rgb(0, 0, 0);
+    top: 0px !important;
+    font-size: 17px !important;
+  }
+
   ::-webkit-input-placeholder {
     color: #000000 !important;
 
     padding-right: -15px;
-    font-family: 'y';
+    font-family: 'dana';
     opacity: .6 !important;
-    font-size: 10px !important;
+    font-size: 13px !important;
     position: relative;
     top: -2px;
     padding-top: 10px !important;
@@ -639,34 +724,32 @@ background-size: 100% 965px ;
     position: relative;
     top: -210px;
     z-index: 1;
+  }
+
+
+  
+
+  header {
+    text-shadow: 4px 4px 3px #000000;
+    font-size: 2.2rem;
+    position: relative;
+    top: 30px;
+    width: 100%;
 }
 
 
 
-
-  header {
-    text-shadow: 4px 4px 3px #000000;
-    font-size: 1.2rem;
-    position: relative;
-    top: 30px;
-  }
-
-
-
   .todo-header {
-    background-color: white;
-   box-shadow: #86919c 2px 3px 4px 1px;
+
     border-radius: 0px;
     z-index: 0 !important;
-    margin-top: 773px;
+    margin-top: 895px;
     height: 500px !important;
-    width: 60.9rem;
+    width: 100%;
+    right: 0px !important;
+  left: 0px !important;
 
-
-    right: -10px;
-
-  }
-
+}
   .trash-btn,
   .check-btn {
 
@@ -681,19 +764,25 @@ background-size: 100% 965px ;
     padding-top: 36px;
 
   }
+
   .todo-button {
     position: absolute;
-    right: 344px;
+    right: 393px;
     height: 200px;
     transform: scale(1.2);
+    top: 38px;
 }
-
   .select {
     margin: 1rem;
     position: absolute;
     overflow: hidden;
-    top: 4px;
-    right: 389px;}
+    top: 23px;
+
+    margin-right: auto;
+    margin-left: auto;
+    right: 500px;
+    left: 0px;
+}
   .filter-todo {
     width: 200px;
     text-align: center;
@@ -704,33 +793,33 @@ background-size: 100% 965px ;
 
   .todo-input {
     width: 250px;
-    height: 30px;
+    height: 40px;
     font-size: 18px;
-    /* margin-right: 20px; */
-    /* z-index: 1; */
-    /* position: absolute; */
     border-radius: 3px;
-    right: 10px;
+    right: 29px;
 }
 
-option {
-  font-weight: 400 !important;
-  background-color: azure;    font-size: 13px!important;
-  color: black;
-}
 
   .todo {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 1.5rem;
-    background: white;
+ 
     font-size: 1.5rem;
     transition: all 0.5s ease;
     margin-bottom: 38px;
     position: relative;
-    top: -79px;
+    top: -986px;
+
+margin-right: auto!important;
+margin-left: auto!important;
+right: 0px!important;
+left: 0px!important;
+width: 600px;
+
   }
+
 
   .todo-button {
 
@@ -738,18 +827,21 @@ option {
   }
 
   .containerinput {
-    position: relative;
-    top: -821px;
-    /* right: -720px; */
+      position: relative;
+    top: -804px;
     height: 2221px;
- 
     width: 100%;
 }
 
 }
 
 @media only screen and (max-width: 768px) {
-  .fa, .fab, .fal, .far, .fas {
+
+  .fa,
+  .fab,
+  .fal,
+  .far,
+  .fas {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     display: inline-block;
@@ -760,8 +852,9 @@ option {
     line-height: 0;
     top: -12px;
     position: relative;
-  
+
   }
+
   .todo-list {
     min-width: 65%;
     list-style: none;
@@ -775,7 +868,7 @@ option {
     top: -682px;
     right: 2px;
     height: 2221px;
-  
+
     width: 93%;
     margin-right: auto;
     margin-left: auto;
@@ -797,14 +890,14 @@ option {
     position: relative;
     top: -182px;
     z-index: 1;
-    /* left: 168px !important; */
+
     width: 400px;
-    background-color: burlywood;
+  
     margin-right: auto;
     margin-left: auto;
     height: 300px;
     right: 16px;
-}
+  }
 
 
 
@@ -816,9 +909,8 @@ option {
     background: transparent;
     font-size: 1.5rem;
     transition: all 0.5s ease;
-    /* margin-bottom: 129px; */
     position: relative;
-    top: -131px;
+    top: -1000px;
     margin-right: auto;
     margin-left: auto;
     width: 400px;
@@ -835,10 +927,9 @@ option {
 
 
 
-
   header,
   form {
-    min-height: 25vh;
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -884,17 +975,17 @@ option {
   }
 
   .select::after {
-  
-      content: "\25BC";
-      position: absolute;
-      top: 0px;
-      right: 4px;
-      padding: 1.2rem;
-      pointer-events: none;
-      transition: all 0.3s ease;
-      border-radius: 2px;
-      z-index: 1;
-      height: 50px;
+
+    content: "\25BC";
+    position: absolute;
+    top: 0px;
+    right: 4px;
+    padding: 1.2rem;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    border-radius: 2px;
+    z-index: 1;
+    height: 50px;
   }
 
 
@@ -902,7 +993,7 @@ option {
     width: 171px;
     height: 28px;
     font-size: 12px;
-    /* margin-right: 20px; */
+ 
     font-weight: 900;
     position: absolute;
     z-index: 1;
@@ -911,18 +1002,18 @@ option {
     padding-top: 11px;
     top: 59px;
 
-}
+  }
+
   .todo-button {
 
     height: 70px;
   }
 
   .todo-header {
-    margin-top: 600px;
-    /* margin-right: 34px; */
+    margin-top: 850px;
     width: 97%;
-    box-shadow: #86919c 2px 3px 4px 1px;
-    border-radius: 0px;    right: -9px;
+    border-radius: 0px;
+    right: 0px;
   }
 }
 
@@ -930,7 +1021,7 @@ option {
 
   .todo li {
     flex: 1 1;
-    height: 45px!important;
+    height: 45px !important;
     text-align: center;
     align-items: center;
     display: flex;
@@ -942,14 +1033,18 @@ option {
     border-radius: 15px;
     border: solid 2px #d2d2d2;
     color: white;
-    top: -3px!important;
-    /* font-size: 17px !important; */
+    top: -3px !important;
+  
     padding-top: 9px;
     padding-bottom: 30px;
-}
+  }
 
 
-  .fa, .fab, .fal, .far, .fas {
+  .fa,
+  .fab,
+  .fal,
+  .far,
+  .fas {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     display: inline-block;
@@ -960,29 +1055,31 @@ option {
     line-height: 0;
     top: -5px;
     position: relative;
-  
-  }.todo-container {
+
+  }
+
+  .todo-container {
     display: block;
     justify-content: center;
     align-items: center;
     position: relative;
     top: -182px;
     z-index: 1;
-    /* left: 168px !important; */
+
     width: 400px;
-    background-color: burlywood;
+   
     margin-right: auto;
     margin-left: auto;
     height: 300px;
-    /* right: -60px; */
-    /* width: 226px; */
+
     height: 130px;
-}
+  }
+
   ::-webkit-input-placeholder {
-    color: #168670 !important;
+    color: #000000 !important;
 
     padding-right: -15px;
-    font-family: 'y';
+    font-family: 'dana';
     opacity: .6 !important;
     font-size: 10px !important;
     position: relative;
@@ -991,7 +1088,7 @@ option {
   }
 
   .select::after {
-  
+
     content: "\25BC";
     position: absolute;
     top: 0px;
@@ -1002,7 +1099,7 @@ option {
     border-radius: 2px;
     z-index: 1;
     height: 65px;
-}
+  }
 
   .todo {
     display: flex;
@@ -1088,18 +1185,18 @@ option {
     border-radius: 31px !important;
     color: blue;
     border: solid 1px #c2c2c2;
-      
+
 
   }
 
   .filter-todo {
     text-align: center;
-  
+
     font-size: 11px;
     z-index: 1;
     position: relative;
     height: 39px;
-    /* left: 121px; */
+  
     top: 12.1px;
     right: -4px;
     padding-right: 38px;
@@ -1109,13 +1206,14 @@ option {
     position: relative !important;
     right: 26px !important;
     height: 30px !important;
-    top:42px !important;
+    top: 42px !important;
     width: 13%;
     margin-right: auto;
     margin-left: auto;
     display: flex;
     right: 11px;
-}
+  }
+
   .select::after {
     content: "\25BC";
     position: absolute;
@@ -1141,62 +1239,67 @@ option {
     top: 34px;
     position: relative;
     right: 14px;
-}
+  }
 
   .todo-button {
-    position: relative!important;
-    top: 44px!important;
+    position: relative !important;
+    top: 44px !important;
 
-   
+
   }
+
   .todo-item {
     padding: 34rem 1.2rem;
     font-size: 26px !important;
     margin-left: -170px;
-}
-.todo-list {
-  /* min-width: 30%; */
-  list-style: none;
-  top: 1193px;
-  right: -178px;
-  margin-right: auto;
-  margin-left: auto;
-  height: 159px;
-  width: 71%!important;
-}
+  }
+
+  .todo-list {
+   
+    list-style: none;
+    top: 1193px;
+    right: -178px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 159px;
+    width: 71% !important;
+  }
+
   .todo-header {
-    width: 90%!important;
+    width: 90% !important;
     margin-top: 254px;
     box-shadow: #86919c 2px 3px 4px 1px;
     border-radius: 0px;
     right: 2px;
     z-index: 0 !important;
     display: flex;
-    /* position: relative; */
+  
     margin-right: auto;
     margin-left: auto;
     position: absolute;
-}
+  }
 }
 
 @media screen and (max-width: 338px) {
   .fa-plus-square:before {
     content: "\f0fe";
-}
+  }
 
   ::-webkit-input-placeholder {
-    color: #168670 !important;
+    color: #000000 !important;
 
     padding-right: -15px;
-    font-family: 'y';
+    font-family: 'dana';
     opacity: .6 !important;
     font-size: 10px !important;
     position: relative;
     top: -2px;
     padding-top: 10px !important;
   }
-  .trash-btn, .check-btn {
-    /* color: white; */
+
+  .trash-btn,
+  .check-btn {
+  
     border: none;
     padding: 1rem;
     cursor: pointer;
@@ -1208,31 +1311,33 @@ option {
     right: -227px;
     position: relative;
     width: 35px;
-}
-.todo li {
-  flex: 1 1;
-  height: 45px!important;
-  text-align: center;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  width: 71% !important;
-  right: -181px;
-  position: relative;
-  margin-right: 120px;
-  border-radius: 15px;
-  border: solid 2px #d2d2d2;
-  color: white;
-  top: -3px!important;
-  /* font-size: 17px !important; */
-  padding-top: 9px;
-  padding-bottom: 30px;
-}
+  }
+
+  .todo li {
+    flex: 1 1;
+    height: 45px !important;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 71% !important;
+    right: -181px;
+    position: relative;
+    margin-right: 120px;
+    border-radius: 15px;
+    border: solid 2px #d2d2d2;
+    color: white;
+    top: -3px !important;
+  
+    padding-top: 9px;
+    padding-bottom: 30px;
+  }
+
   .todo {
-    display: flex!important;
+    display: flex !important;
     justify-content: space-between;
     align-items: center;
-    /* margin: 1.5rem; */
+  
     background: transparent;
     font-size: 1.5rem;
     transition: all 0.5s ease;
@@ -1320,12 +1425,12 @@ option {
 
   .filter-todo {
     text-align: center;
-  
+
     font-size: 11px;
     z-index: 1;
     position: relative;
     height: 39px;
-    /* left: 121px; */
+  
     top: 12.1px;
     right: -4px;
     padding-right: 38px;
@@ -1335,13 +1440,14 @@ option {
     position: relative !important;
     right: 26px !important;
     height: 30px !important;
-    top:42px !important;
+    top: 42px !important;
     width: 13%;
     margin-right: auto;
     margin-left: auto;
     display: flex;
     right: 11px;
-}
+  }
+
   .select::after {
     content: "\25BC";
     position: absolute;
@@ -1367,31 +1473,34 @@ option {
     top: 3px;
     position: relative;
     right: 5px;
-    border: solid 1px #c2c2c2;
-}
+    border: solid 1px #cdcdcd;
+  }
 
   .todo-button {
 
     height: 70px;
   }
+
   .todo-item {
     padding: -28rem 2.2rem;
     font-size: 26px !important;
     margin-left: 66px;
     top: 10px;
-}
-.todo-list {
-  list-style: none;
-  top: 1182px;
-  right: -102px;
-  margin-right: auto;
-  margin-left: auto;
-  height: 140px;
-  width: 84%!important;
-  display: block!important;
-}
+  }
+
+  .todo-list {
+    list-style: none;
+    top: 1182px;
+    right: -102px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 140px;
+    width: 84% !important;
+    display: block !important;
+  }
+
   .todo-header {
-    width: 85%!important;
+    width: 85% !important;
     margin-top: 337px;
     box-shadow: #86919c 2px 3px 4px 1px;
     border-radius: 0px;
@@ -1399,32 +1508,33 @@ option {
     z-index: 0 !important;
     display: flex;
     position: absolute;
-}
+  }
 
 }
+
 @media only screen and (min-width: 1200px) {
   .fa-plus-square:before {
     content: "\f0fe";
-}
+  }
+
   .containerinput {
     position: relative;
-    top: -1041px;
+    top: -757px;
     right: -4px;
     width: 1227px;
     height: 1000px;
-    z-index: 0;
-   
+    z-index: 5555533333;
+
     background-size: 100% 1400px;
     background-position: 2px 30px;
     margin-right: auto;
     margin-left: auto;
     left: 0px;
-opacity:1;
-       
-            background-image:url('blue-monday-with-notepad-pen-wooden-cubes.jpg')!important;
-     
+    opacity: 1;
 
-}
+
+
+  }
 
 
 
@@ -1479,21 +1589,9 @@ opacity:1;
     transform: scale(.91) !important;
   }
 
-  option {
-    border-radius: 10px !important;
-    font-weight: 100 !important;
-    font-family: 'vazir';
-    font-size: 15px !important;
-    background-color: #fbf7f6;
-    height: 1158px;COLOR: black!important;
 
-  }
 
-  option:hover {
-    font-weight: 800 !important;
-    background-color: #14ac8d !important;
-    color: #f4f4f4;
-  }
+
 
 
   .todo {
@@ -1505,13 +1603,16 @@ opacity:1;
     font-size: 1.5rem;
     transition: all 0.5s ease;
     position: relative;
-    top: -134px;
+    top: -174px;
   }
 
 
 
   .option-todo {
-    color: blue !important;
+    font-family: 'dana';
+    color: rgb(20, 1, 1) !important;
+    font-weight: 400;
+    font-size: 17px;
 
   }
 
@@ -1523,19 +1624,20 @@ opacity:1;
     border: none;
     font-size: 25px;
     color: #6d6d6d;
-    border: solid 1px #c2c2c2;
+    
+ 
     font-weight: 800 !important;
-    font-family: 'y';
+    font-family: 'dana';
     width: 15rem;
     cursor: pointer;
     padding: 1rem;
     padding-right: 88px;
-  
-  
+
+
     border-end-start-radius: 15px !important;
 
-    height: 50px !important;  
-      border-start-start-radius: 15px !important;
+    height: 50px !important;
+    border-start-start-radius: 15px !important;
 
   }
 
@@ -1544,18 +1646,22 @@ opacity:1;
     position: relative;
     overflow: hidden;
     top: 0px;
-    color: #6d6d6d;
+    border-start-start-radius: 15px !important;
     right: -14px;
-}
+    border-end-start-radius: 15px !important;
+    background-color: white!important;
+  }
+
   .filter-todo {
     text-align: center;
     position: relative;
     width: 300px;
     padding-top: 12px;
     font-size: 17px;
-    font-weight: 400!important;    
-     background-color: #ffffff;
+    font-weight: 400 !important;
+ font-family: 'dana' !important;
     color: rgb(0, 0, 0);
+    border: 1px solid rgb(204, 204, 204);
 
   }
 
@@ -1570,8 +1676,8 @@ opacity:1;
     transition: all 0.3s ease;
     color: white;
     z-index: 1;
-    font-family: 'y';
-    background: #0a6cdb;
+    font-family: 'dana';
+    background: #db0a0a;
     border: solid 1px #979696;
     border-end-start-radius: 15px !important;
     border-start-start-radius: 15px !important;
@@ -1582,36 +1688,38 @@ opacity:1;
 
 
   .select:hover::after {
-    background: #0b68b9;
+    background: #8a0000 ;
     color: white;
     top: .081rem !important;
     border-radius: 2px;
   }
 
   .todo-button {
-     /* position: absolute; */
-     right: 486px;
-     top: 16px;
-     transform: scale(1.2);
- 
- }
+   
+    right: 486px;
+    top: 16px;
+    transform: scale(1.05);
+
+  }
+
   .todo-input {
-    width:300px;
-    height: 30px;
-    font-size: 20px;
-    margin-right: 25px;
-    padding-right: 5px;
+    width: 300px;
+    height: 44px;
+    font-size:17px;
+    margin-right: 19px;
+    padding-right: 8px;
     padding-top: 3px;
-    border-radius: 0px !important;
+    border-radius: 7px !important;
     font-weight: 900;
     z-index: 1;
     color: #000000;
-    border: solid 1px #d6d6d6;
+   
     font-weight: 400;
-    font-family: 'vazir';
-    background-image: linear-gradient(to bottom right, #ffffff, #ffffff);
-    top: 20px;
+    font-family: 'dana';
+
+    top: 14px;
     position: absolute;
+    border: solid 1px #cdcdcd;
 
   }
 

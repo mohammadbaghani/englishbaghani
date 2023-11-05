@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from "react";
 import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Courses from './components/Courses'
@@ -13,19 +13,30 @@ import Slider from './Slider';
 import Form from './Form';
 import Users from './Users';
 import './App.css';
+import { useLocation } from "react-router-dom";
 
 
 
-import { useNavigate, Outlet } from 'react-router-dom';
 
 
 export default function App() {
-  let navigate = useNavigate()
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  useEffect(() => {
+    alert('سلام محمد باغانی , برنامه نویس هستم.این سایت رو با ری اکت زدم.')
+  }, []);
+
+ 
 
 
   return (
     <>
-          <div  >
+          <div >
 
       <Header />
  

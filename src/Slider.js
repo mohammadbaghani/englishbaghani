@@ -5,20 +5,20 @@ import React, { useState } from 'react';
 
 import { useEffect } from 'react';
 import { useLocation } from "react-router-dom";
-import selena from './';
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+
 import Badge from 'react-bootstrap/Badge';
 import Carousel from 'react-elastic-carousel'
-import { Score } from '@mui/icons-material';
+
 let coursesData = [
   {
-    english: 'بهترین آموزشگاهی که تا حالا تجربه کردم.اساتید عالی و محیطی دلپذیر داشت!', sound: '/images/sounds/boat.mp3',
-    farsi: 'سمانه پورخادم',
-    src: 'Newfolder/5.jpg'
+    english: "متد های به روز آموزشی در کنار پیگیری مستمراساتید هر دانشجویی رو راضی و خشنود میکنه. ", price: "Speaking",
+    farsi: 'پرنیا طاهریان',
+
+    src: 'Newfolder/10.jpg'
   },
+
   {
-    english: "به نظرم پردیسان برای همیشه به نیکی در ذهنم خواهد ماند !", sound: '/images/sounds/Twilight.mp3',
+    english: "به نظرم پردیسان برای همیشه به نیکی در ذهنم خواهد ماند !",
 
     farsi: 'زهرا باقری',
 
@@ -28,14 +28,15 @@ let coursesData = [
 
 
 
-  {
-    english: "متد های به روز آموزشی در کنار پیگیری مستمراساتید هر دانشجویی رو راضی و خشنود میکنه. ", price: "Speaking", sound: '/images/sounds/river.mp3',
-    farsi: 'پرنیا طاهریان',
 
-    src: 'Newfolder/10.jpg'
+  {
+    english: 'بهترین آموزشگاهی که تا حالا تجربه کردم.اساتید عالی و محیطی دلپذیر داشت!',
+    farsi: 'سمانه پورخادم',
+    src: 'Newfolder/5.jpg'
   },
   {
-    english: "من  سخت گیر رو فقط اینجا تونست  پایبند کنه که سر کلاس هاش بشینم. چون واقعا درجه یک هستن!", price: "Speaking", sound: '/images/sounds/mountain.mp3',
+    english: "من  سخت گیر رو فقط اینجا تونست  پایبند کنه که سر کلاس هاش بشینم. چون واقعا درجه یک هستن!", price: "Speaking",
+
     farsi: "صدف  شیرازیان",
 
     src: 'Newfolder/14.jpg'
@@ -70,12 +71,7 @@ function Slider() {
       setShow(0)
     }
 
-
-
-
-
   }
-
 
   function reduceState() {
     setShow(show - 1)
@@ -85,23 +81,11 @@ function Slider() {
     ) {
       setShow(0)
     }
-
-
-
-
   }
-
 
   function addsecond() {
     setSecond(second + 1)
   }
-
-
-
-
-
-
-
 
   return (
 
@@ -143,11 +127,6 @@ function Slider() {
 
           </li>
 
-          <h1 className=' v'>
-            {coursesData[show].farsi}
-
-          </h1>
-
 
           <img className='image-slider' src={coursesData[show].src}
 
@@ -180,10 +159,6 @@ function Slider() {
 
 
 
-          <h1 className=' v'>
-            {coursesData[show].farsi}
-
-          </h1>
 
 
           <img className='image-slider' src={coursesData[show].src}
@@ -213,17 +188,17 @@ function Slider() {
 
           </h1>
 
-          <h1 className=' v'>
-            {coursesData[show].farsi}
-
-          </h1>
 
           <img className='image-slider' src={coursesData[show].src}
 
           >
           </img >
         </div>
+
+
         <div className='parent-image-slider' >
+
+
           <h1 className='hhh v'>
             {coursesData[show].english}
             <h className='score' >
@@ -233,21 +208,13 @@ function Slider() {
 
             <Badge >
 
-
-              <hr>
-              </hr>
               {score}
 
 
             </Badge>
 
-
           </h1>
 
-          <h1 className=' v'>
-            {coursesData[show].farsi}
-
-          </h1>
 
 
           <img className='image-slider' src={coursesData[show].src}
@@ -255,7 +222,6 @@ function Slider() {
           >
           </img >
         </div>
-
       </Carousel>
 
     </body>

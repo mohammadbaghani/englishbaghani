@@ -36,7 +36,7 @@ export default class Product extends Component {
 
 
 
-                    <div class="icon-title">   <MovieIcon />
+                    <div class="icon-title">   
                         {title}
                     </div>
 
@@ -54,7 +54,7 @@ export default class Product extends Component {
 
                     <span class="shop-item-price">
 
-                        <PaidIcon />
+                        <PaidIcon className="paid"/>
 
                         {price}
 

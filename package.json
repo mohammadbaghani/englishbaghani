@@ -38,6 +38,9 @@
   "@testing-library/user-event": "^12.8.3",
  
    
+  "animate.css": "^4.1.1",
+ 
+   
   "material-ui-popup-state": "^5.0.4",
  
    

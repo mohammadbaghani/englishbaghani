@@ -4,26 +4,22 @@
 /node_modules
 /.pnp
 .pnp.js
-/src/CartProduct.js
-/src/index.js
-/src/Accordian.css
-/src/Todo.js
-/src/TodoList.js
-/src/Form.js
-/src/Question.js
-/src/CoursesData.js
 
 
-/src/Shop.js
+/src/.Todo.css
 
-/src/Users.js
-Question.js
-CoursesData.js
-
-
+/src/.Form.css
+/src/.Users.css
+/src/.Form.js
+/src/.Users.js
+/src/.CoursesData.js
+/src/.Headercopy.js
+/src/.Headercopy.css
+/src/.CoursesData.css
+/src/.CartProduct.js
 /build
-
-
+/src/.Shop.css
+/src/.Main.css
 # misc
 .DS_Store
 .env.local

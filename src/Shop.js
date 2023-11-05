@@ -3,7 +3,7 @@ import Product from './Product'
 import CartProduct from './CartProduct'
 import Form from 'react-bootstrap/Form';
 import './Shop.css'
-import Productcopy from './Productcopy'
+
 
 export default class Shop extends Component {
   
@@ -173,16 +173,20 @@ export default class Shop extends Component {
                 </figure>
 
                 <header class="main-header zz">
-                    <hr className='hshop'>
-                    </hr>
+                
+
+
                     <h1 class="band-name band-name-large-animation">فروش  فیلم های انگلیسی   </h1>
 
                 </header>
 
 
+
+
+
                 <div className='valed-parent-filters'  >
 
-                    <h1 class="band-name  bottom-text"> :فیلتر بر اساس
+                    <h1 class="band-name  bottom-text"> :فیلتر بر اساس بازیگران
 
                     </h1>
 

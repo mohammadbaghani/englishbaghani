@@ -3,19 +3,51 @@
 }
 
 .tbody {
-    font-family: 'vazir' !important;
+    font-family: 'dana' !important;
 }
 
 td,
 th {
-    font-family: 'vazir' !important;
+    font-family: 'dana' !important;
     font-size: 20px !important;
 }
-.table-bordered thead td, .table-bordered thead th {
-    border-bottom-width: 2px;
+
+.table-bordered thead td,
+.table-bordered thead th {
+
     text-align: center;
 }
+
 @media only screen and (max-width: 1200px) {
+
+    .modal-content{
+        background-color: transparent !important;
+        border: none!important;
+    }
+
+    .attention {
+        background-color: rgb(1, 58, 165) !important;
+        color: rgb(255, 255, 255) !important;
+        width: 100% !important;
+        height: 100px !important;
+        text-align: center;
+        border: 1px solid black;
+        display: flex !important;
+        align-items: center !important;
+        padding: 10px;
+        border-radius: 10px;
+        font-family: 'dana';
+        top: 10px;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        left: 0px !important;
+        right: 0px !important;
+
+
+    }
+
+
+
     .table {
         width: 100%;
         margin-bottom: 4rem;
@@ -23,6 +55,7 @@ th {
         top: 322px;
         position: relative;
     }
+
     .buttonclass {
         font-size: 14px !important;
         position: relative;
@@ -77,9 +110,10 @@ th {
 
 
     }
+
     #contained-modal-title-vcenter {
 
-        font-family: 'vazir' !important;
+        font-family: 'dana' !important;
 
 
     }
@@ -88,6 +122,9 @@ th {
 }
 
 @media only screen and (max-width: 992px) {
+
+
+
     .users {
         max-width: 780px;
         font-size: 55px;
@@ -119,7 +156,7 @@ th {
         width: 100%;
         margin-bottom: 4rem;
         color: #212529;
-        top: 324px;
+        top: 124px;
         position: relative;
     }
 }
@@ -131,14 +168,15 @@ th {
 
 
     .table {
-        width: 90%!important;
+        width: 90% !important;
         margin-bottom: 4rem;
         color: #212529;
         top: -9px;
         position: relative;
         left: 156px;
-    
+
     }
+
     .users {
         max-width: 450px;
         max-height: 700px;
@@ -151,7 +189,7 @@ th {
     }
 
     .tbody {
-        width: 90%!important;
+        width: 90% !important;
         margin-bottom: 1rem;
         color: #212529;
         left: -170px;
@@ -159,7 +197,8 @@ th {
         font-size: 20px !important;
     }
 
-    .thead {width: 90%!important;
+    .thead {
+        width: 90% !important;
         margin-bottom: 1rem;
         background-color: #1e42b3 !important;
         color: white;
@@ -186,7 +225,7 @@ th {
 
 
     .table {
-        width: 90%!important;
+        width: 90% !important;
         margin-bottom: 4rem;
         color: #212529;
         top: 294px;
@@ -195,8 +234,9 @@ th {
         transform: scale(.7);
         margin-right: auto;
         margin-left: auto;
-    
+
     }
+
     .users {
         max-width: 450px;
         max-height: 700px;
@@ -209,7 +249,7 @@ th {
     }
 
     .tbody {
-        width: 90%!important;
+        width: 90% !important;
         margin-bottom: 1rem;
         color: #212529;
         left: -170px;
@@ -217,7 +257,8 @@ th {
         font-size: 20px !important;
     }
 
-    .thead {width: 90%!important;
+    .thead {
+        width: 90% !important;
         margin-bottom: 1rem;
         background-color: #1e42b3 !important;
         color: white;
@@ -238,15 +279,40 @@ th {
 
 
 @media screen and (min-width:1200px) {
-    .table-bordered thead td, .table-bordered thead th {
-    border-bottom-width: 2px;
-    text-align: center;
 
-    border-bottom-width: 2px;
-    text-align: center;
-    font-weight: 400;
 
-}
+
+
+
+
+    .attention {
+        background-color: rgb(1, 58, 165) !important;
+        color: rgb(255, 255, 255) !important;
+        width: 100% !important;
+        height: 100px !important;
+        text-align: center;
+        border: 1px solid black;
+        display: flex !important;
+        align-items: center !important;
+        padding: 10px;
+        border-radius: 10px;
+        font-family: 'dana';
+        top: 10px;
+
+    }
+
+
+
+    .table-bordered thead td,
+    .table-bordered thead th {
+
+
+
+        text-align: center;
+        font-weight: 400;
+
+    }
+
     .buttonclass {
         font-size: 14px !important;
         position: relative;
@@ -260,237 +326,272 @@ th {
 
     }
 
-    .close-button {   border:2px solid  rgb(245, 100, 108) ;
-        border-right:2px solid  rgb(240, 89, 89) ;
+    .close-button {
+        border: 2px solid rgb(245, 100, 108);
+        border-right: 2px solid rgb(240, 89, 89);
         color: rgb(255, 255, 255) !important;
         background-color: rgb(161, 5, 13) !important;
         position: relative !important;
-        top:0px !important;
-        border-radius:8px!important;
-    
-    
-    }.close-button:hover{  
+        top: 0px !important;
+        border-radius: 8px !important;
+
+
+    }
+
+    .close-button:hover {
         color: aliceblue !important;
-     background-color: rgb(41, 2, 2) !important;
-     position: relative !important;  
-    
-    }
-    
-    .close-button , .delete-button {
-        padding-top:13px!important;  
-        top: -70px !important;   
-        width: 110px!important;
-       height:50px!important;
-    
-    font-size: 23px!important;
-    font-family: dana!important;
-right: 40px!important;
-transform: scale(1.35);
+        background-color: rgb(41, 2, 2) !important;
+        position: relative !important;
 
-
-}  
-
-
-
-
-.edit-button {font-size: 11px!important;
-    color: aliceblue !important;
-    background-color: rgb(7, 55, 160) !important;
-    border-bottom:6px solid  rgb(33, 109, 153) ;
-    border-right:6px solid  rgb(33, 109, 153) ;
-  right: -540px!important;
-    position: relative !important;
-    top:6px !important;padding-top: 10px!important;
-    border-radius:8px!important;  width: 130px!important;
-    height:60px!important;  font-size: 14px!important;
-}
-.close-edit {
-color: aliceblue !important;
-    background-color: rgb(243, 32, 32) !important;
-    border-bottom:6px solid  rgb(206, 69, 69) ;
-    border-right:6px solid  rgb(197, 65, 65) ;
-  right: 30px!important;
-    position: relative !important;
-    top:0px !important;padding-top: 10px!important;
-    border-radius:8px!important;  width: 110px!important;
-    height:50px!important;  font-size: 14px!important;
-} 
-
-
-
-
-
-
-
-
-.edit-button:hover{ font-size: 11px!important;
-    color: aliceblue !important;
-    background-color: rgb(7, 55, 160) !important;
-    border-bottom:6px solid  rgb(33, 109, 153) ;
-    border-right:6px solid  rgb(33, 109, 153) ;
-  right: -540px!important;
-    position: relative !important;
-    top:6px !important;padding-top: 10px!important;
-    border-radius:8px!important;  width: 130px!important;
-    height:60px!important;  font-size: 14px!important;
-}
-
-
-.close-edit:hover{ color: aliceblue !important;
-    background-color: rgb(243, 32, 32) !important;
-    border-bottom:6px solid  rgb(216, 63, 63) ;
-    border-right:6px solid  rgb(230, 53, 53) ;
-  right: 30px!important;
-    position: relative !important;
-    top:0px !important;padding-top: 10px!important;
-    border-radius:8px!important;  width: 110px!important;
-    height:50px!important;  font-size: 14px!important;
-} 
-
-
-
-
-
-
-.delete-button:hover{  
-    color: aliceblue !important;
-    background-color: rgb(5, 2, 20) !important;
-    position: relative !important;   border-bottom:4px solid  rgb(51, 68, 73) ;
-    border-right:4px solid  rgb(33, 47, 53) ;
-  
-}
-.delete-button {  color: rgb(255, 255, 255) !important;
-    background-color: rgb(1, 38, 134) !important;
-    position: relative !important;
-    border-radius:8px!important;
- 
-    border:2px solid  rgb(130, 204, 247) ;
-
-}
-
-
-
-   
-
-.hazf-down
-
-{     border-radius: 5px !important;
-    color: rgb(255, 255, 255) !important;
-    background-color: rgb(7, 26, 1) !important;
-    position: relative !important;
-    padding-top:8px!important;  
-    top: 0px !important;   
-    width: 120px!important;
-       height:30px!important;
- 
-   transform: scale(2.35)
-   skew(-5deg);
- border:1px solid rgb(156, 214, 20);
-font-size: 11px!important;
-font-family: dana!important;
-right: 40px!important;
-
-
-
-
-
-
-    
-display: block;
-    top: -10px!important;
-    
-  
-  left: 0px!important;
-    right: 0px!important;
-  
-    margin-right: auto!important;
-    margin-left: auto!important;
-    text-align: center!important;
-    font-weight: 400!important;
-    font-family:'dana'!important;
-}
-.modal-footer{  border: none!important;
-}
-
-
-.modal-content {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    width: 100%;
-    pointer-events: auto;
-    background-color: transparent;
-    background-clip: padding-box;
-    border: none;
-    border-radius:25px;
-    outline: 0;
-    height: 280px;  
-
-}
-.modal-header {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    padding: 1rem 1rem;
-    border-bottom: none!important;
-    border-top-left-radius: calc(0.3rem - 1px);
-    border-top-right-radius: calc(0.3rem - 1px);
-}
-           
-
-
-
-
-
-
-
-    .close-button:hover,.delete-button:hover {
-        transform: scale(1.28)
-        skew(-5deg);
-       
-    }
-    .close-button:active ,.delete-button:active {
-        transform: scale(1.24)
-        skew(-5deg);
-       
     }
 
-    .close-edit { transform: scale(1.24)
-        skew(-5deg);
-       
+    .close-button,
+    .delete-button {
+        padding-top: 13px !important;
+        top: -70px !important;
+        width: 110px !important;
+        height: 50px !important;
 
-    }  
-    
-    
-    
+        font-size: 23px !important;
+        font-family: dana !important;
+        right: 40px !important;
+        transform: scale(1.35);
+
+
+    }
+
+
+
+
+    .edit-button {
+        font-size: 11px !important;
+        color: aliceblue !important;
+        background-color: rgb(7, 55, 160) !important;
+        border-bottom: 6px solid rgb(33, 109, 153);
+        border-right: 6px solid rgb(33, 109, 153);
+        right: -540px !important;
+        position: relative !important;
+        top: 6px !important;
+        padding-top: 10px !important;
+        border-radius: 8px !important;
+        width: 130px !important;
+        height: 60px !important;
+        font-size: 14px !important;
+    }
+
+    .close-edit {
+        color: aliceblue !important;
+        background-color: rgb(243, 32, 32) !important;
+        border-bottom: 6px solid rgb(206, 69, 69);
+        border-right: 6px solid rgb(197, 65, 65);
+        right: 30px !important;
+        position: relative !important;
+        top: 0px !important;
+        padding-top: 10px !important;
+        border-radius: 8px !important;
+        width: 110px !important;
+        height: 50px !important;
+        font-size: 14px !important;
+    }
+
+
+
+
+
+
+
+
+    .edit-button:hover {
+        font-size: 11px !important;
+        color: aliceblue !important;
+        background-color: rgb(7, 55, 160) !important;
+        border-bottom: 6px solid rgb(33, 109, 153);
+        border-right: 6px solid rgb(33, 109, 153);
+        right: -540px !important;
+        position: relative !important;
+        top: 6px !important;
+        padding-top: 10px !important;
+        border-radius: 8px !important;
+        width: 130px !important;
+        height: 60px !important;
+        font-size: 14px !important;
+    }
+
+
+    .close-edit:hover {
+        color: aliceblue !important;
+        background-color: rgb(243, 32, 32) !important;
+        border-bottom: 6px solid rgb(216, 63, 63);
+        border-right: 6px solid rgb(230, 53, 53);
+        right: 30px !important;
+        position: relative !important;
+        top: 0px !important;
+        padding-top: 10px !important;
+        border-radius: 8px !important;
+        width: 110px !important;
+        height: 50px !important;
+        font-size: 14px !important;
+    }
+
+
+
+
+
+
+    .delete-button:hover {
+        color: aliceblue !important;
+        background-color: rgb(5, 2, 20) !important;
+        position: relative !important;
+        border-bottom: 4px solid rgb(51, 68, 73);
+        border-right: 4px solid rgb(33, 47, 53);
+
+    }
+
+    .delete-button {
+        color: rgb(255, 255, 255) !important;
+        background-color: rgb(1, 38, 134) !important;
+        position: relative !important;
+        border-radius: 8px !important;
+
+        border: 2px solid rgb(130, 204, 247);
+
+    }
+
+
+
+
+
+    .hazf-down {
+        border-radius: 5px !important;
+        color: rgb(255, 255, 255) !important;
+        background-color: rgb(7, 26, 1) !important;
+        position: relative !important;
+        padding-top: 8px !important;
+        top: 0px !important;
+        width: 120px !important;
+        height: 30px !important;
+
+        transform: scale(2.35) skew(-5deg);
+        border: 1px solid rgb(156, 214, 20);
+        font-size: 11px !important;
+        font-family: dana !important;
+        right: 40px !important;
+
+
+
+
+
+
+
+        display: block;
+        top: -10px !important;
+
+
+        left: 0px !important;
+        right: 0px !important;
+
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+        font-weight: 400 !important;
+        font-family: 'dana' !important;
+    }
+
+    .modal-footer {
+        border: none !important;
+    }
+
+
+    .modal-content {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        pointer-events: auto;
+        background-color: transparent;
+        background-clip: padding-box;
+        border: none;
+        border-radius: 25px;
+        outline: 0;
+        height: 280px;
+
+    }
+
+    .modal-header {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 1rem 1rem;
+        border-bottom: none !important;
+        border-top-left-radius: calc(0.3rem - 1px);
+        border-top-right-radius: calc(0.3rem - 1px);
+    }
+
+
+
+
+
+
+
+
+    .close-button:hover,
+    .delete-button:hover {
+        transform: scale(1.28) skew(-5deg);
+
+    }
+
+    .close-button:active,
+    .delete-button:active {
+        transform: scale(1.24) skew(-5deg);
+
+    }
+
+    .close-edit {
+        transform: scale(1.24) skew(-5deg);
+
+
+    }
+
+
+
 
 
     .form-control {
         display: block;
         width: 75%;
-        height: calc(2.em + 0.75rem + 2px);
-        padding: 0.375rem 0.75rem;
+
+
         font-size: 1.4rem;
         font-weight: 700;
         line-height: 1.5;
         color: #000000 !important;
-        background-color: #e4e9e8;
+        background-color: #ffffff;
         background-clip: padding-box;
-        /* border: 1px solid #615f5f; */
-        border-radius: 0.25rem;
+        border: 1px solid #909090;
+        border-radius: 6px;
         padding-top: 6px !important;
         transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
         margin-left: 53px;
-        font-family: 'vazir' !important;
-        margin-top: -121px;
+        font-family: 'dana' !important;
+        margin-top: -117px;
         height: 70px;
+        margin-bottom: 147px;
+
     }
 
+    .form-control:focus {
+        color: #ffffff !important;
+
+        border-color: #597ea2;
+        border: 1px solid #0824c7;
+        background-color: #0824c7;
+        box-shadow: 0 0 0 0.2rem rgba(44, 62, 80, .25);
+    }
 
     .table {
         width: 74%;
@@ -518,7 +619,7 @@ display: block;
 
     th {
         font-size: 30px;
-        color: rgb(27, 25, 25)!important;
+        color: rgb(27, 25, 25) !important;
     }
 
 
@@ -526,20 +627,30 @@ display: block;
     .thead {
 
         background-color: #ffffff !important;
-        color: rgb(15, 14, 14)!important;
+        color: rgb(15, 14, 14) !important;
 
 
     }
 
     #contained-modal-title-vcenter {
 
-        font-family: 'vazir' !important;
+        font-family: 'dana' !important;
 
 
     }
 
     .form-label {
-        font-family: 'vazir' !important;
+        font-family: 'dana' !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        right: -89px !important;
+        left: 0px !important;
+        top: -122px;
+    }
+
+    .form-label:hover {
+        cursor: none !important;
+
     }
 
     input::placeholder {
@@ -547,13 +658,13 @@ display: block;
         color: rgb(19, 18, 18);
     }
 
-  
+
     ::-webkit-input-placeholder {
         color: #06011f;
-    
+
         font-family: 'y';
         opacity: .5 !important;
-      }
-      
-      
+    }
+
+
 }

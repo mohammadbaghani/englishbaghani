@@ -1,20 +1,37 @@
-@media only screen and (max-width: 1200px) {    .text-todo{
-    width: 700px;
-    background-color: #06101d;
-    color: #ffffff!important;
-    border-radius: 35px;
-    font-size: 20px!important;
-    height: 42px;
-    padding-top: 10px;
-    font-weight: 400;
+@media only screen and (max-width: 1200px) {
+    .text-todo {
+        text-shadow: none;
+        color: #ffffff !important;
+        font-family: 'dana';
+        font-size: 22px;
+        margin-top: -224px;
+        height: 91px;
+        position: absolute;
+        top: 261px;
+        font-weight: 400 !important;
+        z-index: 1;
+        background-color: #a70000;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        width: 102% !important;
+        display: flex !important;
+        right: 0px !important;
+        align-items: center!important;
+        justify-content: center!important;
+        left: 0px!important;
+        font-weight: 400 !important;
+        width: 100% !important;
+        box-shadow: 0px 1px 12px rgb(128, 128, 128) !important;
+        margin-bottom: 39px!important;
+    
+    }
 
-}
     h1 {
         padding-left: 10px;
         padding-right: 10px;
         font-size: 35px;
         text-align: center;
-        color: #41494a!important;
+        color: #41494a !important;
         font-weight: 900;
         top: -913px;
         text-shadow: none;
@@ -22,26 +39,26 @@
         font-family: 'y';
         z-index: 0;
     }
-   
+
 
     .all-todos {
-        position: absolute;
-        top: 198px;
+        position: relative;
+        top: 698px;
         z-index: 0;
         display: flex;
         justify-content: space-between;
-        width: 835px;
-        border: solid 1px #929292;
+        width: 738px;
         margin-right: auto;
         margin-left: auto;
         right: 0px;
-        padding-top: 30px;
         left: 3px;
-        height: 80px;
-        background-color: #ffffff;
-        border-radius: 13px;
-        padding-right: 45px;
+        height: 114px;
     
+  
+        align-items: center;
+   
+        border-radius: 10px;
+        border: 1px solid rgb(221, 221, 221);
     }
 
     .form-control {
@@ -68,52 +85,44 @@
     }
 }
 
-@media only screen and (max-width: 992px) {    .text-todo{
-    width: 500px;
-    background-color: #06101d;
-    color: #ffffff!important;
-    border-radius: 35px;
-    font-size: 17px!important;
-    height: 42px;
-    padding-top: 11px;
-    font-weight: 400;
-    top: -875px;
+
+@media only screen and (max-width: 992px) {
+
+
+  
+
+.text-todo {
+  
+  
+    top: -715px!important;
 }
 .all-todos {
     position: absolute;
-    z-index:1 !important;
-    top: 185px;
-    right: -21px;
-    width: 628px;
-    height: 78px;
-    border: solid 1px #929292;
+    z-index: 1 !important;
+    top: 55px;
+    right: 0px;
+    left: 0px;
+    margin-right: auto;
+    margin-left: auto;
 }
-    h1 {
-        padding-left: 20px;
-        padding-right: 20px;
-        font-size: 28px;
-        text-align: center;
-        top: -901px;
-        position: relative;
-    }
+
+h1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 28px;
+    text-align: center;
+    top: -901px;
+    position: relative;
+}
 }
 
 @media only screen and (max-width: 768px) {
 
     .text-todo {
-        background-color: #06101d;
-        color: #ffffff!important;
-        border-radius: 35px;
-        font-size: 15px!important;
-        height: 42px;
-        padding-top: 14px;
-        font-weight: 400;
-        top: -935px;
     
-    }
-
-
-
+      
+            top: -701px !important;
+        }
 
     .todo-button {
         position: absolute;
@@ -124,32 +133,31 @@
         margin-left: auto;
         transform: scale(1.1);
     }
+
     .all-todos {
         position: absolute;
-        z-index: 0!important;
+        z-index: 0 !important;
         top: 111px;
-        right: -15px;
+        right: 0px;
         margin-right: auto;
         margin-left: auto;
         left: 0px;
         transform: scale(1);
         width: 493px;
-        height: 49px !important;
-    
+        height: 137px !important;
     }
     .select {
-       
-            /* width: 227px; */
-               /* width: 227px; */
-    /* left: -209px; */
-    position: absolute;
-    height: 52px;
-    transform: scale(.8);
-    top: 35px;
-    right: 256px;
-    margin-right: auto;
-    margin-left: auto;
-        }
+
+
+        position: absolute;
+        height: 52px;
+        transform: scale(.8);
+        top: 35px;
+        right: 256px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
     h1 {
         padding-left: 20px;
         padding-right: 20px;
@@ -170,83 +178,88 @@
 
 @media screen and (max-width: 576px) {
     .text-todo {
-        width: 105%!important;
+        width: 105% !important;
         background-color: #06101d;
-        color: #ffffff!important;
+        color: #ffffff !important;
         border-radius: 35px;
-        font-size: 12px!important;
+        font-size: 12px !important;
         height: 37px;
         padding-top: 12px;
         font-weight: 400;
         top: -920px;
     }
-  
+
     .all-todos {
         position: absolute;
         top: 484px;
         z-index: 1;
-        width: 74%!important;
+        width: 74% !important;
         display: flex !important;
-        height: 230px!important;
+        height: 230px !important;
         margin-right: auto;
         margin-left: auto;
         right: 0px;
-    }  .select {
-            width: 79%!important;
-            position: relative;
-            height: 173px!important;
-            left: 1px!important;
-            height: 120px;
-            margin-right: auto;
-            margin-left: auto;
-            right: 22px;
-            top: -8.5px!important;
-        }
-        
-element.style {
-}
+    }
 
-.fa, .fab, .fal, .far, .fas {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-feature-settings: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 0;
-    top: -5px;
-    position: relative;
-    right: -4px;
-    transform: scale(.9);
-}     
-.todo-button {
-    border-radius: 7px!important;
-    top: -53px
-!important;
-    height: 31px!important;
-    width: 31px!important;
-}
+    .select {
+        width: 79% !important;
+        position: relative;
+        height: 173px !important;
+        left: 1px !important;
+        height: 120px;
+        margin-right: auto;
+        margin-left: auto;
+        right: 22px;
+        top: -8.5px !important;
+    }
+
+
+    .fa,
+    .fab,
+    .fal,
+    .far,
+    .fas {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-feature-settings: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 0;
+        top: -5px;
+        position: relative;
+        right: -4px;
+        transform: scale(.9);
+    }
+
+    .todo-button {
+        border-radius: 7px !important;
+        top: -53px !important;
+        height: 31px !important;
+        width: 31px !important;
+    }
+
     h1 {
         font-size: 14px;
 
         margin-right: auto;
         margin-left: auto;
-        color: #41494a!important;
+        color: #41494a !important;
         text-shadow: none;
         top: -1192px;
         font-weight: 600;
 
         z-index: 0;
 
-      
+
 
 
     }
 
     .containerinput {
         margin-top: 230px;
-        /* box-shadow: #d1cfd3 2px 3px 4px 1px; */
+
         border-radius: 0px;
         right: 12px;
         z-index: 0 !important;
@@ -262,63 +275,66 @@ element.style {
 @media screen and (max-width: 338px) {
 
     .todo-button {
-        border-radius: 7px!important;
-        top:-73px!important;
-        height: 31px!important;
-        width: 31px!important;
-        right: 11px!important;
+        border-radius: 7px !important;
+        top: -73px !important;
+        height: 31px !important;
+        width: 31px !important;
+        right: 11px !important;
         margin-right: auto;
         margin-left: auto;
-        transform: scale(.8)!important;
+        transform: scale(.8) !important;
     }
+
     .text-todo {
-        width: 107%!important;
+        width: 107% !important;
         background-color: #06101d;
-        color: #ffffff!important;
+        color: #ffffff !important;
         border-radius: 35px;
-        font-size: 8px!important;
+        font-size: 8px !important;
         height: 30px;
         padding-top: 11px;
         font-weight: 400;
         top: -896px;
         font-weight: 700;
     }
-  
+
     .all-todos {
         position: absolute;
         top: 499px;
         z-index: 1;
-        width: 82%!important;
+        width: 82% !important;
         display: flex !important;
-        height: 147px!important;
+        height: 147px !important;
         margin-right: auto;
         margin-left: auto;
         right: -25px;
     }
-        .select {
-            width: 71%!important;
-            position: relative;
-            height: 54px!important;
-            left: 1px!important;
-            height: 120px;
-            margin-right: auto;
-            margin-left: auto;
-            right: 5px;
-            top: -129.5px!important;
-        }   
+
+    .select {
+        width: 71% !important;
+        position: relative;
+        height: 54px !important;
+        left: 1px !important;
+        height: 120px;
+        margin-right: auto;
+        margin-left: auto;
+        right: 5px;
+        top: -129.5px !important;
+    }
+
     h1 {
         font-size: 14px;
 
         margin-right: auto;
         margin-left: auto;
-        color: #41494a!important;
+        color: #41494a !important;
         text-shadow: none;
         top: -1192px;
         font-weight: 600;
 
         z-index: 0;
 
-      
+
 
 
     }
@@ -327,11 +343,11 @@ element.style {
         margin-top: 225px;
         box-shadow: #d1cfd3 2px 3px 4px 1px;
         border-radius: 0px;
-        /* right: 0px; */
+
         z-index: 0 !important;
         display: flex;
         position: relative;
-       
+
         margin-right: auto;
         margin-left: auto;
     }
@@ -370,9 +386,8 @@ element.style {
 
     .all-todos {
         position: absolute;
-        top: 212px;
-        z-index: 0!important;
-        /* left: 39px; */
+        top: 164px;
+        z-index: 444444444444444 !important;
         display: flex;
         justify-content: space-between;
         width: 75%;
@@ -380,12 +395,14 @@ element.style {
         margin-left: auto;
         right: 0px;
         left: 0px;
-        background-color: #dde9f4;
+      
         padding-right: -33px;
-        border-radius: 7px;
-        border: solid 1px #dee2e6;
+        border-radius: 5px;
+        
         width: 1000px;
-    
+       
+      border: 1px solid rgb(221, 221, 221);
+       
     }
 
     h1 {
@@ -393,7 +410,7 @@ element.style {
         padding-right: 20px;
         font-size: 35px;
         text-align: center;
-        color: #ffffff!important;
+        color: #ffffff !important;
         font-weight: 900;
         top: -887px;
         z-index: 1;
@@ -403,32 +420,32 @@ element.style {
         z-index: 0;
 
     }
+
     .text-todo {
-        align-items: center;
         text-shadow: none;
         color: #ffffff !important;
         font-family: 'dana';
         font-size: 29px;
         margin-top: -204px;
         height: 123px;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 46px;
+    
         position: absolute;
         text-align: center;
-        top: -21px;
+        top: 187px;
         font-weight: 400 !important;
         z-index: 1;
-        background-color: #06101d;
-        /* border-radius: 35px; */
+        background-color: #a70000;
         margin-right: auto !important;
         margin-left: auto !important;
         width: 102% !important;
-        display: block !important;
+        display:flex !important;
         right: 0px !important;
         left: 0px;
-        font-weight: 400!important;
-        width: 100%!important;
-        box-shadow: 0px 1px 12px rgb(128, 128, 128)!important;
+        justify-content: center!important;
+        align-items: center!important;
+        font-weight: 400 !important;
+        width: 100% !important;
+        box-shadow: 0px 1px 12px rgb(128, 128, 128) !important;
+    
     }
 }
